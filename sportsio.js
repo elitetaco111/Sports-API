@@ -32,7 +32,7 @@ async function fetchAllTeamProfiles() {
     console.log(`Fetched ${data.length} team profiles.`);
     // Example: list team + League + Division
     for (const t of data) {
-      console.log(`${t.TeamID}: ${t.City} ${t.Name} | ${t.League} ${t.Division}`);
+      console.log(`${t.TeamID}: ${t.City} ${t.Name} | ${t.League} ${t.Division} ${t.GlobalTeamID}`);
     }
 
     // If you want to inspect full object of first team:
