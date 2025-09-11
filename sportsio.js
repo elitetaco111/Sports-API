@@ -12,11 +12,12 @@ if (!API_KEY) {
   process.exit(1);
 }
 
-const ENDPOINT = 'https://api.sportsdata.io/v3/mlb/scores/json/AllTeams?key=' + API_KEY;
+const ENDPOINT1 = 'https://api.sportsdata.io/v3/mlb/scores/json/AllTeams?key=' + API_KEY;
+
 
 async function fetchAllTeamProfiles() {
   try {
-    const resp = await fetch(ENDPOINT, {
+    const resp = await fetch(ENDPOINT1, {
       headers: {
         'Ocp-Apim-Subscription-Key': API_KEY
       }
@@ -45,4 +46,37 @@ async function fetchAllTeamProfiles() {
   }
 }
 
+async function fetchGamesByDate(date) {
+  const ENDPOINT2 = 'https://api.sportsdata.io/v3/mlb/scores/json/ScoresBasic/' + date + '?key=' + API_KEY;
+  try {
+    const resp = await fetch(ENDPOINT2, {
+      headers: {
+        'Ocp-Apim-Subscription-Key': API_KEY
+      }
+    });
+
+    if (!resp.ok) {
+      const text = await resp.text();
+      throw new Error(`HTTP ${resp.status} ${resp.statusText} - ${text}`);
+    }
+
+    const data = await resp.json();
+
+    console.log(`Fetched ${data.length} team profiles.`);
+    // Example: list team + League + Division
+    for (const t of data) {
+      console.log(t);
+    }
+
+    // If you want to inspect full object of first team:
+    // console.dir(data[0], { depth: 4 });
+
+    return data;
+  } catch (err) {
+    console.error('Error fetching status:', err.message);
+    process.exitCode = 1;
+  }
+}
+
 fetchAllTeamProfiles();
+fetchGamesByDate('2025-09-11');
