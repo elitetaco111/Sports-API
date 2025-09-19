@@ -1,4 +1,5 @@
-// Runs every minute, detects games going from InProgress -> Final, records winner.
+// Runs every 30s, detects games going from InProgress -> Final, records winner,
+// then re-verifies for 2 minutes to catch late scoring corrections.
 // Requires Node 18+ (global fetch). Set env: $env:SPORTSDATAIO_API_KEY="your_api_key_here"
 
 try { require('dotenv').config(); } catch (_) {}
@@ -17,6 +18,9 @@ const BASE_URL = 'https://api.sportsdata.io/v3/mlb/scores/json';
 const DATA_DIR = path.join(__dirname, 'data');
 const STATE_PATH = path.join(DATA_DIR, 'games-state.json');
 const WINNERS_LOG = path.join(DATA_DIR, 'winners.jsonl');
+
+const POLL_INTERVAL_MS = 30_000;     // 30 seconds
+const VERIFY_WINDOW_MS = 120_000;    // 2 minutes
 
 const FINAL_STATUSES = ['final', 'final/over', 'complete', 'completed'];
 function isFinal(status) {
@@ -38,11 +42,6 @@ function fmtDate(d) {
 function datesToWatch(now = new Date()) {
   // Watch today. Also watch yesterday before 12:00 local to catch overnight finals.
   const today = fmtDate(now);
-  if (now.getHours() < 12) {
-    const yd = new Date(now);
-    yd.setDate(yd.getDate() - 1);
-    return [fmtDate(yd), today];
-  }
   return [today];
 }
 
@@ -53,9 +52,14 @@ async function ensureDataDir() {
 async function loadState() {
   try {
     const raw = await fs.readFile(STATE_PATH, 'utf8');
-    return JSON.parse(raw);
+    const parsed = JSON.parse(raw);
+    return {
+      lastStatusByGameId: parsed.lastStatusByGameId ?? {},
+      seenWinners: parsed.seenWinners ?? {},
+      verifying: parsed.verifying ?? {} // { [gameId]: { startedAtMs, baseline: {homeRuns, awayRuns, winnerTeam} } }
+    };
   } catch {
-    return { lastStatusByGameId: {}, seenWinners: {} };
+    return { lastStatusByGameId: {}, seenWinners: {}, verifying: {} };
   }
 }
 
@@ -63,7 +67,7 @@ async function saveState(state) {
   await fs.writeFile(STATE_PATH, JSON.stringify(state, null, 2), 'utf8');
 }
 
-async function logWinner(entry) {
+async function logLine(entry) {
   const line = JSON.stringify(entry);
   await fs.appendFile(WINNERS_LOG, line + '\n', 'utf8');
 }
@@ -91,7 +95,7 @@ function computeWinner(game) {
   const homeRuns = game.HomeTeamRuns ?? null;
   const awayRuns = game.AwayTeamRuns ?? null;
   if (homeRuns == null || awayRuns == null) return null;
-  if (homeRuns === awayRuns) return null; // rare in MLB; safety
+  if (homeRuns === awayRuns) return null; // safety
   const winnerTeam = homeRuns > awayRuns ? game.HomeTeam : game.AwayTeam;
   const loserTeam = homeRuns > awayRuns ? game.AwayTeam : game.HomeTeam;
   return {
@@ -104,7 +108,17 @@ function computeWinner(game) {
   };
 }
 
+function winnersEqual(a, b) {
+  if (!a && !b) return true;
+  if (!a || !b) return false;
+  return a.homeRuns === b.homeRuns &&
+         a.awayRuns === b.awayRuns &&
+         a.winnerTeam === b.winnerTeam &&
+         a.loserTeam === b.loserTeam;
+}
+
 async function tick(state) {
+  const nowMs = Date.now();
   const watchDates = datesToWatch();
   for (const date of watchDates) {
     let games = [];
@@ -126,13 +140,12 @@ async function tick(state) {
 
       // Detect transition InProgress -> Final
       const transitioned = isInProgress(prevStatus) && isFinal(currStatus);
-
-      // If we never saw it and it's already final, optionally record once
       const firstSeenFinal = !prev && isFinal(currStatus);
 
       if ((transitioned || firstSeenFinal) && !state.seenWinners[id]) {
         const winner = computeWinner(g);
         const entry = {
+          type: 'final',
           ts: new Date().toISOString(),
           date,
           gameId: id,
@@ -140,9 +153,53 @@ async function tick(state) {
           statusTo: currStatus,
           ...winner
         };
-        await logWinner(entry);
+        await logLine(entry);
         state.seenWinners[id] = true;
+
+        // Start verification window
+        state.verifying[id] = {
+          startedAtMs: nowMs,
+          baseline: winner
+        };
+
         console.log(`Winner recorded: ${entry.winnerTeam} over ${entry.loserTeam} (${entry.awayTeam} ${entry.awayRuns} @ ${entry.homeTeam} ${entry.homeRuns})`);
+      }
+
+      // If in verification window, compare against baseline and extend/reset if changed
+      if (state.verifying[id]) {
+        const current = computeWinner(g);
+        const baseline = state.verifying[id].baseline;
+
+        // If winner or runs changed, log a correction and extend window
+        if (!winnersEqual(current, baseline)) {
+          const correction = {
+            type: 'correction',
+            ts: new Date().toISOString(),
+            date,
+            gameId: id,
+            status: currStatus,
+            from: baseline,
+            to: current
+          };
+          await logLine(correction);
+          state.verifying[id].baseline = current;
+          state.verifying[id].startedAtMs = nowMs; // extend 2 minutes from last change
+          console.log(`Correction detected for Game ${id}:`, correction);
+        }
+
+        // End verification if window elapsed without changes
+        if (nowMs - state.verifying[id].startedAtMs >= VERIFY_WINDOW_MS) {
+          // Optional: log verification completion
+          await logLine({
+            type: 'verified',
+            ts: new Date().toISOString(),
+            date,
+            gameId: id,
+            final: state.verifying[id].baseline
+          });
+          delete state.verifying[id];
+          console.log(`Winner verified for Game ${id}.`);
+        }
       }
     }
   }
@@ -150,24 +207,24 @@ async function tick(state) {
   await saveState(state);
 }
 
-function msUntilNextMinute() {
+function msUntilNextInterval(periodMs) {
   const now = Date.now();
-  return 60000 - (now % 60000);
+  return periodMs - (now % periodMs);
 }
 
 async function main() {
   await ensureDataDir();
   const state = await loadState();
 
-  // Align to next minute boundary
+  // Align to next 30s boundary
   setTimeout(() => {
     tick(state).catch(err => console.error('Tick error:', err));
     setInterval(() => {
       tick(state).catch(err => console.error('Tick error:', err));
-    }, 60_000);
-  }, msUntilNextMinute());
+    }, POLL_INTERVAL_MS);
+  }, msUntilNextInterval(POLL_INTERVAL_MS));
 
-  console.log('MLB monitor started. Polling every minute.');
+  console.log(`MLB monitor started. Polling every ${POLL_INTERVAL_MS / 1000}s with a ${VERIFY_WINDOW_MS / 1000}s verification window.`);
 }
 
 main().catch(err => {
