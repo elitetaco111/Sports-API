@@ -1,0 +1,3219 @@
+{
+  "league": {
+    "id": "26c1246a-2fc3-4b7e-8999-1685d3ab4676",
+    "name": "NCAA Football",
+    "alias": "NCAAFB"
+  },
+  "teams": [
+    {
+      "id": "30abfee7-57a7-4984-9a1c-55cb28970da3",
+      "name": "49ers",
+      "market": "Charlotte",
+      "alias": "CHAR"
+    },
+    {
+      "id": "f6f4a672-6368-45aa-98d0-3756da844114",
+      "name": "Aggies",
+      "market": "New Mexico State",
+      "alias": "NMSU"
+    },
+    {
+      "id": "e7268e7f-a453-4f46-b005-689d1d4966d4",
+      "name": "Aggies",
+      "market": "Utah State",
+      "alias": "USU"
+    },
+    {
+      "id": "d5199a36-7f26-4c3b-be48-9599039e232c",
+      "name": "Aggies",
+      "market": "Texas A&M",
+      "alias": "TXAM"
+    },
+    {
+      "id": "b38454be-5f7b-4da0-915e-f5ec909e6fa0",
+      "name": "Aggies",
+      "market": "North Carolina A&T",
+      "alias": "NCAT"
+    },
+    {
+      "id": "15828630-7d0d-4ac5-8707-915879a90943",
+      "name": "Aggies",
+      "market": "UC Davis",
+      "alias": "UCD"
+    },
+    {
+      "id": "6d9085d7-1a8a-4714-b8ee-d8a1b00d6a92",
+      "name": "Aggies",
+      "market": "Oklahoma Panhandle State",
+      "alias": "OPSU"
+    },
+    {
+      "id": "200364e8-417b-4df6-91d5-9535c0616f1c",
+      "name": "Argonauts",
+      "market": "West Florida",
+      "alias": "UWFL"
+    },
+    {
+      "id": "7c1ea83e-f07b-46dc-9bb1-7130de8c502c",
+      "name": "Auggies",
+      "market": "Augsburg",
+      "alias": "AUGS"
+    },
+    {
+      "id": "54585fd0-90d0-46bd-a018-d033fb2ee767",
+      "name": "Aztecs",
+      "market": "San Diego State",
+      "alias": "SDSU"
+    },
+    {
+      "id": "7dbca160-b9d8-4da4-8176-2445cb4b34d2",
+      "name": "Badgers",
+      "market": "Wisconsin",
+      "alias": "WIS"
+    },
+    {
+      "id": "c433c333-2eb6-4592-8516-e325b736dfee",
+      "name": "Bald Eagles",
+      "market": "Lock Haven",
+      "alias": "LHU"
+    },
+    {
+      "id": "91dcaf5b-8abf-46cc-a447-fc812f69ccb9",
+      "name": "Battlers",
+      "market": "Alderson-Broaddus",
+      "alias": "ABU"
+    },
+    {
+      "id": "2d7e35bc-a88b-41e3-8c1f-be8ef9520086",
+      "name": "Battling Bishops",
+      "market": "NC Wesleyan",
+      "alias": "NCW"
+    },
+    {
+      "id": "59d0852a-b283-4829-af63-60553fbafdeb",
+      "name": "Beacons",
+      "market": "Valparaiso",
+      "alias": "VALP"
+    },
+    {
+      "id": "eba016ef-816a-41f0-aaea-15a143952bb3",
+      "name": "Bearcats",
+      "market": "Northwest Missouri State",
+      "alias": "NMSU"
+    },
+    {
+      "id": "3c2c21d3-4a85-4460-bed7-2b49590e66a9",
+      "name": "Bearcats",
+      "market": "McKendree",
+      "alias": "MCKN"
+    },
+    {
+      "id": "fa355cca-bfb2-4282-9656-3e1869d26eef",
+      "name": "Bearcats",
+      "market": "Southwest Baptist",
+      "alias": "SWBU"
+    },
+    {
+      "id": "42a9a18b-b59a-408b-8cab-4e49cbe2c23a",
+      "name": "Bearcats",
+      "market": "Cincinnati",
+      "alias": "CIN"
+    },
+    {
+      "id": "844c8d83-ee90-46a1-a943-2b5db4c5cb21",
+      "name": "Bearkats",
+      "market": "Sam Houston",
+      "alias": "SHSU"
+    },
+    {
+      "id": "bcacfbac-3ab1-4d80-b852-943fb58d4796",
+      "name": "Bears",
+      "market": "Lenoir-Rhyne",
+      "alias": "LRU"
+    },
+    {
+      "id": "61ca5389-4b73-4a82-a4e0-98265a3a72a9",
+      "name": "Bears",
+      "market": "Shaw",
+      "alias": "SHAW"
+    },
+    {
+      "id": "da45fbb4-54a4-4b21-8682-c26c5d85061c",
+      "name": "Bears",
+      "market": "Missouri State",
+      "alias": "MOSU"
+    },
+    {
+      "id": "8b8225f5-eb09-48ea-9120-cef081918b7a",
+      "name": "Bears",
+      "market": "Baylor",
+      "alias": "BAY"
+    },
+    {
+      "id": "8a7fc6b5-bd34-4b66-8e08-8e6562b9248d",
+      "name": "Bears",
+      "market": "Morgan State",
+      "alias": "MORG"
+    },
+    {
+      "id": "a3d9d315-cbf9-44bd-bfcc-b91e756ac5f2",
+      "name": "Bears",
+      "market": "Northern Colorado",
+      "alias": "UNCO"
+    },
+    {
+      "id": "b1a9ddff-373c-43f1-a562-8c7a235d54ab",
+      "name": "Bears",
+      "market": "Central Arkansas",
+      "alias": "CARK"
+    },
+    {
+      "id": "cc1b918c-1523-4412-8b1e-2219d88f11b8",
+      "name": "Bears",
+      "market": "Mercer",
+      "alias": "MER"
+    },
+    {
+      "id": "b0708df4-2923-4756-8504-6a3bba7d70a6",
+      "name": "Bears",
+      "market": "Brown",
+      "alias": "BRWN"
+    },
+    {
+      "id": "2d0bdc23-f380-4903-97c2-06c7cb6c30f1",
+      "name": "Bears",
+      "market": "Rocky Mountain College",
+      "alias": "RMC"
+    },
+    {
+      "id": "5fb09809-05fa-42cf-8636-311b8b4c2c04",
+      "name": "Bears",
+      "market": "Pikeville",
+      "alias": "UOP"
+    },
+    {
+      "id": "bdd8a4ad-a454-434b-9a01-99c897743a44",
+      "name": "Beavers",
+      "market": "Minot State",
+      "alias": "MINOT"
+    },
+    {
+      "id": "dbc779da-a1bc-4743-bb7a-0922cfa333be",
+      "name": "Beavers",
+      "market": "Bemidji State",
+      "alias": "BSU"
+    },
+    {
+      "id": "6fddb136-b83b-4f5f-8574-54e5581aeaae",
+      "name": "Beavers",
+      "market": "Oregon State",
+      "alias": "ORST"
+    },
+    {
+      "id": "0c89b920-116b-11ef-b1a7-c9f2f14cc42a",
+      "name": "Bengals",
+      "market": "Buffalo State",
+      "alias": "BUFS"
+    },
+    {
+      "id": "6b77703c-545d-4c17-a4bb-1fd0bf715257",
+      "name": "Bengals",
+      "market": "Idaho State",
+      "alias": "IDST"
+    },
+    {
+      "id": "930bc744-6ac6-4164-8bf2-c4b46ccaad21",
+      "name": "Big Green",
+      "market": "Dartmouth",
+      "alias": "DART"
+    },
+    {
+      "id": "e3ad753c-88b0-4ae9-b6c0-2f726e2ecc24",
+      "name": "Big Red",
+      "market": "Cornell",
+      "alias": "COR"
+    },
+    {
+      "id": "865683f5-648b-44e6-a35b-9dc15e25d2b9",
+      "name": "Bison",
+      "market": "Oklahoma Baptist",
+      "alias": "OKBU"
+    },
+    {
+      "id": "3522e1d5-7dc6-4586-a14f-276f56e0c60e",
+      "name": "Bison",
+      "market": "Bucknell",
+      "alias": "BUCK"
+    },
+    {
+      "id": "6923fb41-a948-466b-becf-eafb33cc75f9",
+      "name": "Bison",
+      "market": "Howard",
+      "alias": "HOW"
+    },
+    {
+      "id": "0a05210a-81f7-4d04-80e5-4ba6ee748ccd",
+      "name": "Bison",
+      "market": "North Dakota State",
+      "alias": "NDSU"
+    },
+    {
+      "id": "60bf074e-d9de-4b4c-826d-dda5cbdd33df",
+      "name": "Bisons",
+      "market": "Harding",
+      "alias": "HARD"
+    },
+    {
+      "id": "5ce8eec9-67a2-4993-8897-6faaa4d28f94",
+      "name": "Black Bears",
+      "market": "Maine",
+      "alias": "ME"
+    },
+    {
+      "id": "d23058c1-7aaa-44cd-995b-b4be7078df22",
+      "name": "Black Knights",
+      "market": "Army",
+      "alias": "ARMY"
+    },
+    {
+      "id": "43fbaf17-d217-4033-8b54-208ad18ff305",
+      "name": "Blazers",
+      "market": "Valdosta State",
+      "alias": "VSU"
+    },
+    {
+      "id": "cd66228e-16d4-4753-8af9-d40f0bdc24d6",
+      "name": "Blazers",
+      "market": "UAB",
+      "alias": "UAB"
+    },
+    {
+      "id": "5155d0e4-f13a-4720-9d4c-1530301cf19a",
+      "name": "Blue Bears",
+      "market": "Livingstone",
+      "alias": "LVSC"
+    },
+    {
+      "id": "deb0920f-c4ca-414d-be4b-ca779e353bf0",
+      "name": "Blue Devils",
+      "market": "Duke",
+      "alias": "DUKE"
+    },
+    {
+      "id": "3ed71f8c-b9ac-4984-955b-4284b0430cd2",
+      "name": "Blue Devils",
+      "market": "Central Connecticut State",
+      "alias": "CCSU"
+    },
+    {
+      "id": "a9ea6143-d1c9-414d-81ff-7c57a10baf1f",
+      "name": "Blue Hens",
+      "market": "Delaware",
+      "alias": "DEL"
+    },
+    {
+      "id": "a17404cf-ae20-4bff-bef5-24f70008b2e0",
+      "name": "Blue Hose",
+      "market": "Presbyterian",
+      "alias": "PRE"
+    },
+    {
+      "id": "78d9748b-6b4f-421b-853f-94073d8c2e02",
+      "name": "Blue Knights",
+      "market": "Urbana",
+      "alias": "URB"
+    },
+    {
+      "id": "99562f49-a84d-4f6f-9ad4-949773430431",
+      "name": "Blue Raiders",
+      "market": "Middle Tennessee",
+      "alias": "MTU"
+    },
+    {
+      "id": "d7deff91-48fd-4aa2-b7da-5be3517143c8",
+      "name": "Blue Raiders",
+      "market": "Lindsey Wilson",
+      "alias": "LW"
+    },
+    {
+      "id": "a1a53b67-106e-4e1b-8a0d-a1d9790f6fda",
+      "name": "Blue Tigers",
+      "market": "Lincoln (MO)",
+      "alias": "LCLN"
+    },
+    {
+      "id": "1d51ddc4-d2db-4564-97ad-5c9f964d8ea3",
+      "name": "Bobcats",
+      "market": "West Virginia Wesleyan",
+      "alias": "WVWC"
+    },
+    {
+      "id": "bd1150c0-af37-428a-b0bb-bd76407cf631",
+      "name": "Bobcats",
+      "market": "Frostburg State",
+      "alias": "FSU"
+    },
+    {
+      "id": "a12fcb3c-9e0c-489d-a6a9-1a206c3da09c",
+      "name": "Bobcats",
+      "market": "Ohio",
+      "alias": "OHIO"
+    },
+    {
+      "id": "9e028d90-7fe0-4a3f-8a6c-c5b5115e12fc",
+      "name": "Bobcats",
+      "market": "Texas State",
+      "alias": "TXST"
+    },
+    {
+      "id": "fefae711-b307-4fd4-b0d2-c9df51f5ae1c",
+      "name": "Bobcats",
+      "market": "Montana State",
+      "alias": "MTST"
+    },
+    {
+      "id": "273a5eb0-d148-11ec-8af1-3598bba809d8",
+      "name": "Bobcats",
+      "market": "St. Thomas (FL)",
+      "alias": "UST"
+    },
+    {
+      "id": "485dd62f-108c-4e32-b171-27f5d493552d",
+      "name": "Boilermakers",
+      "market": "Purdue",
+      "alias": "PUR"
+    },
+    {
+      "id": "cdcf2530-0b9e-4f02-93af-60bf33d0adf1",
+      "name": "Boll Weevils",
+      "market": "Arkansas-Monticello",
+      "alias": "ARKM"
+    },
+    {
+      "id": "aedf6f4b-e7d6-4c63-a6dd-6ab562d98a01",
+      "name": "Braves",
+      "market": "UNC Pembroke",
+      "alias": "UNCP"
+    },
+    {
+      "id": "0c59b9f5-6261-4aec-a491-d5a6a53f3e50",
+      "name": "Braves",
+      "market": "Alcorn State",
+      "alias": "ALCN"
+    },
+    {
+      "id": "91d87a56-9af9-4fc8-bdcf-7c4d3c9f649b",
+      "name": "Bronchos",
+      "market": "Central Oklahoma",
+      "alias": "UCOK"
+    },
+    {
+      "id": "af94065a-fb86-4671-88d5-c31553eb92c1",
+      "name": "Broncos",
+      "market": "Fayetteville State",
+      "alias": "FVST"
+    },
+    {
+      "id": "ed169b71-75b4-40dd-ae28-8e17519c06ba",
+      "name": "Broncos",
+      "market": "Western Michigan",
+      "alias": "WMU"
+    },
+    {
+      "id": "35aa5295-ad07-4b95-aad2-63d1d5bf9009",
+      "name": "Broncos",
+      "market": "Boise State",
+      "alias": "BSU"
+    },
+    {
+      "id": "b5f83caf-279b-403c-bb8f-0a50ec1306a8",
+      "name": "Broncos",
+      "market": "Hastings College",
+      "alias": "HAST"
+    },
+    {
+      "id": "398eda2b-ba77-469f-94df-18fd1d9087d8",
+      "name": "Bruins",
+      "market": "UCLA",
+      "alias": "UCLA"
+    },
+    {
+      "id": "2c40eb6f-f0ac-4d48-b47c-449efb705e6a",
+      "name": "Buccaneers",
+      "market": "Charleston Southern",
+      "alias": "CHSO"
+    },
+    {
+      "id": "d5a80ec8-0cdb-401e-a68b-a646d30b3554",
+      "name": "Buccaneers",
+      "market": "East Tennessee State",
+      "alias": "ETSU"
+    },
+    {
+      "id": "9a6d6f3f-021e-4ddd-8fac-ac4766239d87",
+      "name": "Buckeyes",
+      "market": "Ohio State",
+      "alias": "OSU"
+    },
+    {
+      "id": "ba0c6a1b-ff0c-4b8e-acab-08465b68b00b",
+      "name": "Buffaloes",
+      "market": "West Texas A&M",
+      "alias": "WTAMU"
+    },
+    {
+      "id": "a18d7cf8-1263-45f2-a938-04032d2f7cf5",
+      "name": "Buffaloes",
+      "market": "Colorado",
+      "alias": "COLO"
+    },
+    {
+      "id": "aae73600-d8ab-11ed-8008-21e6e877c549",
+      "name": "Buffaloes",
+      "market": "Arkansas Baptist",
+      "alias": "ABC"
+    },
+    {
+      "id": "0d55a067-6556-47ac-b720-fc534c93ffce",
+      "name": "Bulldogs",
+      "market": "Wingate",
+      "alias": "WU"
+    },
+    {
+      "id": "49be60dd-4441-4c13-a714-b4e28c5e1cdc",
+      "name": "Bulldogs",
+      "market": "Bowie State",
+      "alias": "BWST"
+    },
+    {
+      "id": "0615f585-7564-4334-a0d0-ad00413ab7ae",
+      "name": "Bulldogs",
+      "market": "Ferris State",
+      "alias": "FERST"
+    },
+    {
+      "id": "2a6b725c-1f92-4fbe-b2f1-991045bfe4cc",
+      "name": "Bulldogs",
+      "market": "Minnesota Duluth",
+      "alias": "UMD"
+    },
+    {
+      "id": "54203e84-4fcb-4a0e-9934-a7ad58326b5d",
+      "name": "Bulldogs",
+      "market": "Truman State",
+      "alias": "TSU"
+    },
+    {
+      "id": "42fbc094-1663-4481-a4d2-3ae43ce58c05",
+      "name": "Bulldogs",
+      "market": "Southwestern Oklahoma State",
+      "alias": "SWOSU"
+    },
+    {
+      "id": "f8aa1b62-9622-4a2b-a202-e16d4fb9b90b",
+      "name": "Bulldogs",
+      "market": "Barton",
+      "alias": "BART"
+    },
+    {
+      "id": "5bf6e8b8-2a02-4906-8253-08f967dd3c2c",
+      "name": "Bulldogs",
+      "market": "Louisiana Tech",
+      "alias": "LT"
+    },
+    {
+      "id": "558f07ed-85b3-447d-bdd2-9cd98ca3a547",
+      "name": "Bulldogs",
+      "market": "Fresno State",
+      "alias": "FRES"
+    },
+    {
+      "id": "2eef738d-c637-4b12-b8df-4b79efcce71e",
+      "name": "Bulldogs",
+      "market": "Georgia",
+      "alias": "UGA"
+    },
+    {
+      "id": "6653b9f3-44c6-4b23-8d15-d32aebdee1f9",
+      "name": "Bulldogs",
+      "market": "Mississippi State",
+      "alias": "MSST"
+    },
+    {
+      "id": "1003f810-14bf-11f0-9f36-d9ba58a137df",
+      "name": "Bulldogs",
+      "market": "Adrian",
+      "alias": "ADRN"
+    },
+    {
+      "id": "7b5a4b0e-d443-469e-8639-a27f8a3b5d55",
+      "name": "Bulldogs",
+      "market": "South Carolina State",
+      "alias": "SCST"
+    },
+    {
+      "id": "43838b74-5606-4a4c-b8bb-9e6072e45031",
+      "name": "Bulldogs",
+      "market": "Bryant",
+      "alias": "BRY"
+    },
+    {
+      "id": "56ba7533-3ea8-4ae9-a192-3ea51a7b0b90",
+      "name": "Bulldogs",
+      "market": "Alabama A&M",
+      "alias": "AAMU"
+    },
+    {
+      "id": "98f25c6f-f79c-447b-8131-700f826d388a",
+      "name": "Bulldogs",
+      "market": "Samford",
+      "alias": "SAM"
+    },
+    {
+      "id": "f049d124-7d8f-4259-b257-ad154c4d5964",
+      "name": "Bulldogs",
+      "market": "The Citadel",
+      "alias": "CIT"
+    },
+    {
+      "id": "0e06bfbe-01ef-414d-a6a7-53432f547586",
+      "name": "Bulldogs",
+      "market": "Butler",
+      "alias": "BUT"
+    },
+    {
+      "id": "4b7ab0a0-c1e3-4a58-b679-77353e70a5eb",
+      "name": "Bulldogs",
+      "market": "Drake",
+      "alias": "DRKE"
+    },
+    {
+      "id": "9f7a0ea2-afe0-4eae-b5de-3c31910c600a",
+      "name": "Bulldogs",
+      "market": "Yale",
+      "alias": "YALE"
+    },
+    {
+      "id": "4571a7ab-a595-4cd8-a06e-fcb6f722fe00",
+      "name": "Bulldogs",
+      "market": "Montana-Western",
+      "alias": "UMW"
+    },
+    {
+      "id": "1032f2f8-6a94-43dd-9cdd-03a36804cb89",
+      "name": "Bulldogs",
+      "market": "Union (KY)",
+      "alias": "UNIC"
+    },
+    {
+      "id": "5fb529f6-f6b3-4892-a188-9b38addcc9a3",
+      "name": "Bulls",
+      "market": "Buffalo",
+      "alias": "BUFF"
+    },
+    {
+      "id": "eacced25-52d9-4c27-ab9d-ea9aef995e82",
+      "name": "Bulls",
+      "market": "South Florida",
+      "alias": "USF"
+    },
+    {
+      "id": "7cea6bcb-8ecd-4c92-9b13-31345051ab82",
+      "name": "Cardinal",
+      "market": "Stanford",
+      "alias": "STAN"
+    },
+    {
+      "id": "f4c3d977-2524-496c-be24-e7710916c92d",
+      "name": "Cardinals",
+      "market": "Saginaw Valley State",
+      "alias": "SVSU"
+    },
+    {
+      "id": "7106ebd0-dbf7-4202-a06d-915e8073e317",
+      "name": "Cardinals",
+      "market": "Wheeling",
+      "alias": "WJU"
+    },
+    {
+      "id": "29a01b87-f6c2-487b-a0ad-4d6d2d72f16f",
+      "name": "Cardinals",
+      "market": "William Jewell",
+      "alias": "WJC"
+    },
+    {
+      "id": "1e8edb90-ea5e-4663-9a65-a30e51583711",
+      "name": "Cardinals",
+      "market": "Louisville",
+      "alias": "LOU"
+    },
+    {
+      "id": "5b0018d4-52d0-4b53-b90c-2c597298a4bb",
+      "name": "Cardinals",
+      "market": "Ball State",
+      "alias": "BALL"
+    },
+    {
+      "id": "1507970c-7b7f-442c-8b52-bdac5f697380",
+      "name": "Cardinals",
+      "market": "St. John Fisher",
+      "alias": "SJFC"
+    },
+    {
+      "id": "17e615ac-9e5e-4b7e-b148-79cfbc2009eb",
+      "name": "Cardinals",
+      "market": "Catholic",
+      "alias": "TCUA"
+    },
+    {
+      "id": "5cecc23b-cb18-49f2-85ef-3717063e9dca",
+      "name": "Cardinals",
+      "market": "Incarnate Word",
+      "alias": "IW"
+    },
+    {
+      "id": "8109f68e-0caa-4dab-92fe-eb862c6e39c5",
+      "name": "Cardinals",
+      "market": "Lamar",
+      "alias": "LAM"
+    },
+    {
+      "id": "31303230-d14a-11ec-8af1-3598bba809d8",
+      "name": "Cardinals",
+      "market": "Concordia (MI)",
+      "alias": "CUMI"
+    },
+    {
+      "id": "8c01427f-021a-449f-8fc8-e8c6ed01f340",
+      "name": "Catamounts",
+      "market": "Western Carolina",
+      "alias": "WCU"
+    },
+    {
+      "id": "b8828f0f-d7bb-4e7e-a278-854f509838e1",
+      "name": "Cavaliers",
+      "market": "UVA Wise",
+      "alias": "UVAW"
+    },
+    {
+      "id": "38756550-52d5-4713-ad46-014e8a3551da",
+      "name": "Cavaliers",
+      "market": "Walsh",
+      "alias": "WALSH"
+    },
+    {
+      "id": "858b3a2b-f9c3-4497-a707-733cc1ea7516",
+      "name": "Cavaliers",
+      "market": "Virginia",
+      "alias": "UVA"
+    },
+    {
+      "id": "6489c587-507f-46a1-a3eb-ee9c2eee23f0",
+      "name": "Chanticleers",
+      "market": "Coastal Carolina",
+      "alias": "CCAR"
+    },
+    {
+      "id": "8eef39af-bedf-48bd-8446-368e57bfb7b9",
+      "name": "Chargers",
+      "market": "Hillsdale",
+      "alias": "HILL"
+    },
+    {
+      "id": "218752b3-df1a-4899-bc70-653ea15038ed",
+      "name": "Chargers",
+      "market": "New Haven",
+      "alias": "NHC"
+    },
+    {
+      "id": "03aa49b8-9a36-4e77-adf1-01cc5e2e6a14",
+      "name": "Chippewas",
+      "market": "Central Michigan",
+      "alias": "CMU"
+    },
+    {
+      "id": "297459ac-a24e-4523-a17b-0ec761d4601b",
+      "name": "Choctaws",
+      "market": "Mississippi College",
+      "alias": "MSC"
+    },
+    {
+      "id": "4736be13-a5c5-4477-991d-d3f57a306bdf",
+      "name": "Clan",
+      "market": "Simon Fraser",
+      "alias": "SFRA"
+    },
+    {
+      "id": "164b6de9-f682-45de-9cef-ace3558bffbc",
+      "name": "Cobbers",
+      "market": "Concordia-Moorhead",
+      "alias": "CONC"
+    },
+    {
+      "id": "deea4446-2bee-4144-96bc-9f1e8ccceee8",
+      "name": "Colonels",
+      "market": "Nicholls State",
+      "alias": "NICH"
+    },
+    {
+      "id": "3d924b68-94e8-497d-bcbb-37eef4ff911f",
+      "name": "Colonels",
+      "market": "Eastern Kentucky",
+      "alias": "EKY"
+    },
+    {
+      "id": "c3938316-631f-41fb-8f89-2c566118228e",
+      "name": "Colonials",
+      "market": "Robert Morris",
+      "alias": "RMU"
+    },
+    {
+      "id": "c5554609-655c-4e25-bf93-d6e6a98b0b6f",
+      "name": "Comets",
+      "market": "Mayville State",
+      "alias": "MSU"
+    },
+    {
+      "id": "8177772e-e8b5-44c6-8dc2-a745b863ec3b",
+      "name": "Commodores",
+      "market": "Vanderbilt",
+      "alias": "VAN"
+    },
+    {
+      "id": "98833e65-ab72-482d-b3c0-13f8656629c0",
+      "name": "Cornhuskers",
+      "market": "Nebraska",
+      "alias": "NEB"
+    },
+    {
+      "id": "ca14dc14-dfcf-4326-a7be-898a5bcd595b",
+      "name": "Cougars",
+      "market": "Azusa Pacific",
+      "alias": "AZPU"
+    },
+    {
+      "id": "ead657b1-f990-4b89-9402-761235cf3a20",
+      "name": "Cougars",
+      "market": "Sioux Falls",
+      "alias": "USXF"
+    },
+    {
+      "id": "1ff5428d-2e8c-4b0f-a5a6-ebff126111a2",
+      "name": "Cougars",
+      "market": "Washington State",
+      "alias": "WSU"
+    },
+    {
+      "id": "38157fcd-b2d8-4ecf-ad50-272f8228bf34",
+      "name": "Cougars",
+      "market": "Houston",
+      "alias": "HOU"
+    },
+    {
+      "id": "627b2e5c-3ba5-496e-9f9b-1c620247c1b7",
+      "name": "Cougars",
+      "market": "BYU",
+      "alias": "BYU"
+    },
+    {
+      "id": "ce773fda-b51b-40d0-84f8-51b3a174884c",
+      "name": "Cougars",
+      "market": "Saint Xavier",
+      "alias": "SXU"
+    },
+    {
+      "id": "fe17b7e0-9547-40e4-a5aa-f766c8c320bc",
+      "name": "Cowboys",
+      "market": "New Mexico Highlands",
+      "alias": "NMHU"
+    },
+    {
+      "id": "a62b2dda-d22c-47bf-ad2c-60c66e64d8c7",
+      "name": "Cowboys",
+      "market": "Wyoming",
+      "alias": "WYO"
+    },
+    {
+      "id": "e346442f-9228-4e94-8e9a-376c5ef7e796",
+      "name": "Cowboys",
+      "market": "Oklahoma State",
+      "alias": "OKST"
+    },
+    {
+      "id": "efc41557-a738-43fa-9519-8fd0734923f9",
+      "name": "Cowboys",
+      "market": "McNeese",
+      "alias": "MCNS"
+    },
+    {
+      "id": "0a2ac5e2-3a44-4ced-ac1e-5089fcbacf92",
+      "name": "Coyotes",
+      "market": "South Dakota",
+      "alias": "SDAK"
+    },
+    {
+      "id": "30919b0c-7316-414f-a393-7151252438cb",
+      "name": "Crimson",
+      "market": "Harvard",
+      "alias": "HARV"
+    },
+    {
+      "id": "ed00911e-77b3-456f-a690-2168e35f9531",
+      "name": "Crimson Hawks",
+      "market": "Indiana (PA)",
+      "alias": "IUP"
+    },
+    {
+      "id": "c41c02cb-b5ae-45d1-b88d-06d7c68feb78",
+      "name": "Crimson Storm",
+      "market": "Southern Nazarene",
+      "alias": "SNAZ"
+    },
+    {
+      "id": "19775492-f1eb-4bc5-9e15-078ebd689c0f",
+      "name": "Crimson Tide",
+      "market": "Alabama",
+      "alias": "ALA"
+    },
+    {
+      "id": "87fcaa51-93ab-44a6-8236-23d73fb73226",
+      "name": "Crusaders",
+      "market": "North Greenville",
+      "alias": "NGU"
+    },
+    {
+      "id": "650f0a5a-9ef7-4098-ac9d-42b3645646c4",
+      "name": "Crusaders",
+      "market": "Holy Cross",
+      "alias": "HC"
+    },
+    {
+      "id": "d335c726-44aa-4b69-8271-59d42d691cba",
+      "name": "Cyclones",
+      "market": "Iowa State",
+      "alias": "ISU"
+    },
+    {
+      "id": "2d2b2690-4c17-4acb-ae39-044b36f14758",
+      "name": "Delta Devils",
+      "market": "Mississippi Valley State",
+      "alias": "MVSU"
+    },
+    {
+      "id": "3ed1a496-46af-4c0e-be37-c76ee352d702",
+      "name": "Demon Deacons",
+      "market": "Wake Forest",
+      "alias": "WAKE"
+    },
+    {
+      "id": "3d32a14a-55e7-429a-9f6f-39aac5955191",
+      "name": "Demons",
+      "market": "Northwestern State",
+      "alias": "NWST"
+    },
+    {
+      "id": "d20f9ddf-39c6-4c9a-8871-6a2c7d85adf6",
+      "name": "Dragons",
+      "market": "Tiffin",
+      "alias": "TIFF"
+    },
+    {
+      "id": "a9d1dba3-d83d-49ec-94cc-ddbf57c5a649",
+      "name": "Dragons",
+      "market": "Minnesota State Moorhead",
+      "alias": "MSUM"
+    },
+    {
+      "id": "7d99220b-0148-457e-a802-5b395f54462d",
+      "name": "Dragons",
+      "market": "Lane",
+      "alias": "LC"
+    },
+    {
+      "id": "d476d0cc-db5d-463d-ae30-5075ecb3c548",
+      "name": "Dragons",
+      "market": "Virginia-Lynchburg",
+      "alias": "VLB"
+    },
+    {
+      "id": "5c218a3b-a013-4037-97b6-603c9502b701",
+      "name": "Ducks",
+      "market": "Oregon",
+      "alias": "ORE"
+    },
+    {
+      "id": "b59ad9ae-b8ec-4f8e-9bd2-ec5b4af41e57",
+      "name": "Dukes",
+      "market": "James Madison",
+      "alias": "JMU"
+    },
+    {
+      "id": "5649d2fc-1e64-44ac-a0f2-9d96db4769e9",
+      "name": "Dukes",
+      "market": "Duquesne",
+      "alias": "DUQ"
+    },
+    {
+      "id": "22739891-4203-4907-9b2c-2a416d007105",
+      "name": "Eagles",
+      "market": "Carson-Newman",
+      "alias": "CNU"
+    },
+    {
+      "id": "f4a0ba75-0d10-4ef9-95ac-66eaa44e0851",
+      "name": "Eagles",
+      "market": "Chadron State",
+      "alias": "CSU"
+    },
+    {
+      "id": "8d651eb7-14f8-4bae-a490-276cef79111b",
+      "name": "Eagles",
+      "market": "Ashland",
+      "alias": "ASHL"
+    },
+    {
+      "id": "fc96c960-dd08-11ec-ad0e-ef7bd5e8ba49",
+      "name": "Eagles",
+      "market": "Post University",
+      "alias": "POST"
+    },
+    {
+      "id": "20827bfd-4930-4921-8273-1802423e2be7",
+      "name": "Eagles",
+      "market": "Boston College",
+      "alias": "BC"
+    },
+    {
+      "id": "0fdbf00d-49c6-4c31-abb1-b40cab08c40e",
+      "name": "Eagles",
+      "market": "Eastern Michigan",
+      "alias": "EMU"
+    },
+    {
+      "id": "1ec48c6a-638f-4a79-a134-ec43bd506612",
+      "name": "Eagles",
+      "market": "Georgia Southern",
+      "alias": "GASO"
+    },
+    {
+      "id": "4c834350-f09c-11ef-84f9-1bccf517e62b",
+      "name": "Eagles",
+      "market": "Wisconsin-La Crosse",
+      "alias": "UWLC"
+    },
+    {
+      "id": "f8e7c5f8-5865-4e7c-b221-c88a464f8f28",
+      "name": "Eagles",
+      "market": "North Carolina Central",
+      "alias": "NCCU"
+    },
+    {
+      "id": "414c082c-c3b2-467f-b37d-0f08804a0f60",
+      "name": "Eagles",
+      "market": "Eastern Washington",
+      "alias": "EWU"
+    },
+    {
+      "id": "28f2ce75-b0ca-4cd3-a313-379168b0da95",
+      "name": "Eagles",
+      "market": "Morehead State",
+      "alias": "MORE"
+    },
+    {
+      "id": "63297e60-1982-11ed-99fe-2fc534480fcf",
+      "name": "Eagles",
+      "market": "Faulkner",
+      "alias": "FAUL"
+    },
+    {
+      "id": "1be9f15a-922a-4eb3-bcf1-d40bd5a82423",
+      "name": "Eagles",
+      "market": "Reinhardt",
+      "alias": "REIN"
+    },
+    {
+      "id": "3a4dd01a-14f3-4d0e-bf80-6b9a1f9ce508",
+      "name": "Eagles",
+      "market": "Central Methodist",
+      "alias": "CEME"
+    },
+    {
+      "id": "e53144d2-4305-422f-a4ce-43b4341cc2fc",
+      "name": "Eagles",
+      "market": "Fort Lauderdale",
+      "alias": "FOLA"
+    },
+    {
+      "id": "ea3082ec-f885-4a98-82e6-1893401e79fe",
+      "name": "Falcons",
+      "market": "Notre Dame College",
+      "alias": "NDC"
+    },
+    {
+      "id": "11858510-3663-4a1c-ae7f-0eb91c4c5066",
+      "name": "Falcons",
+      "market": "Bentley",
+      "alias": "BENT"
+    },
+    {
+      "id": "7c3b8861-5e43-4d9d-b928-3cfd61e910ad",
+      "name": "Falcons",
+      "market": "Texas Permian Basin",
+      "alias": "UTPB"
+    },
+    {
+      "id": "397830a6-c9c2-4c76-bcbc-cb1cdba768f0",
+      "name": "Falcons",
+      "market": "Bowling Green",
+      "alias": "BGSU"
+    },
+    {
+      "id": "9f40a53c-d4bc-4d58-8208-2227634f9454",
+      "name": "Falcons",
+      "market": "Air Force",
+      "alias": "AFA"
+    },
+    {
+      "id": "ab9ce3fe-c326-4524-99fa-cb88def8e647",
+      "name": "Falcons",
+      "market": "Wisconsin-River Falls",
+      "alias": "UWRF"
+    },
+    {
+      "id": "52b8ad3d-67ba-45dc-ada8-a6a40844c56c",
+      "name": "Fighting Camels",
+      "market": "Campbell",
+      "alias": "CAMP"
+    },
+    {
+      "id": "2731fb80-0018-48db-98cf-654bed5cdd46",
+      "name": "Fighting Falcons",
+      "market": "Fairmont State",
+      "alias": "FMSU"
+    },
+    {
+      "id": "9cdcab2b-d599-44dd-9939-c4e6d59587cb",
+      "name": "Fighting Hawks",
+      "market": "North Dakota",
+      "alias": "UND"
+    },
+    {
+      "id": "2d824a5f-e706-45b8-9d20-434ed5dd5c2f",
+      "name": "Fighting Illini",
+      "market": "Illinois",
+      "alias": "ILL"
+    },
+    {
+      "id": "d7f19bff-74e7-4b71-a221-12dfeb144fd8",
+      "name": "Fighting Irish",
+      "market": "Notre Dame",
+      "alias": "ND"
+    },
+    {
+      "id": "0d03d2d6-1243-4b1f-b3c8-45be1145ac7b",
+      "name": "Fighting Saints",
+      "market": "Carroll College",
+      "alias": "CAR"
+    },
+    {
+      "id": "018452d7-9b83-402b-9428-c8a34e87df5b",
+      "name": "Fighting Saints",
+      "market": "St. Francis (IL)",
+      "alias": "SFIL"
+    },
+    {
+      "id": "125d1620-8b51-4d2e-9cc5-17370add86a2",
+      "name": "Fighting Scots",
+      "market": "Edinboro",
+      "alias": "EUP"
+    },
+    {
+      "id": "ff1fb4d9-06b0-4ff3-a931-53e0071b2cf4",
+      "name": "Firestorm",
+      "market": "Arizona Christian",
+      "alias": "ACU"
+    },
+    {
+      "id": "4318b2b7-0b61-4509-b776-001b08c09dcc",
+      "name": "Flames",
+      "market": "Liberty",
+      "alias": "LIB"
+    },
+    {
+      "id": "a92d587c-2564-4935-a9e4-d26d6437c171",
+      "name": "Flyers",
+      "market": "Dayton",
+      "alias": "DAY"
+    },
+    {
+      "id": "4c292bfb-5e41-4821-9429-f33c74606fd0",
+      "name": "Flying Fleet",
+      "market": "Erskine",
+      "alias": "ERSK"
+    },
+    {
+      "id": "e2492d05-9414-41fb-b7ef-99b27cf358e6",
+      "name": "Gamecocks",
+      "market": "Jacksonville State",
+      "alias": "JVST"
+    },
+    {
+      "id": "7b1dbcdb-34b2-479e-9b6b-4c7221e7f743",
+      "name": "Gamecocks",
+      "market": "South Carolina",
+      "alias": "SCAR"
+    },
+    {
+      "id": "c765cbff-99d8-4c43-8f6b-e49577ca18fa",
+      "name": "Gators",
+      "market": "Florida",
+      "alias": "FLA"
+    },
+    {
+      "id": "f33ab85a-2f44-43ea-85e0-155e97561b8e",
+      "name": "Glory Eagles",
+      "market": "University of Faith",
+      "alias": "UF-Eagles"
+    },
+    {
+      "id": "dfe2c339-976b-4bb6-b940-5b0eba3b21b5",
+      "name": "Golden Bears",
+      "market": "Concordia-St. Paul",
+      "alias": "CUSP"
+    },
+    {
+      "id": "eb76bf18-c5ae-4075-ac07-589b8b0a8432",
+      "name": "Golden Bears",
+      "market": "Kutztown",
+      "alias": "KUP"
+    },
+    {
+      "id": "96c9ed4c-75c8-4141-9a46-e38855b13087",
+      "name": "Golden Bears",
+      "market": "Miles",
+      "alias": "MILES"
+    },
+    {
+      "id": "eed7f0d6-72e6-4488-8baa-5ee8e3375ba9",
+      "name": "Golden Bears",
+      "market": "California",
+      "alias": "CAL"
+    },
+    {
+      "id": "a4393e78-2c8a-4781-bab4-03503bfff141",
+      "name": "Golden Bears",
+      "market": "Western New England",
+      "alias": "WNEU"
+    },
+    {
+      "id": "e1e5cda1-1ba9-4e43-bf0a-178c5e790ca2",
+      "name": "Golden Bulls",
+      "market": "Johnson C. Smith",
+      "alias": "JCSU"
+    },
+    {
+      "id": "6d775a8d-4511-4b1a-9bac-164e363db32e",
+      "name": "Golden Eagles",
+      "market": "Charleston (WV)",
+      "alias": "UCWV"
+    },
+    {
+      "id": "8f94c0ae-65d7-4d7c-95ef-d799e6123f24",
+      "name": "Golden Eagles",
+      "market": "Clarion",
+      "alias": "CUP"
+    },
+    {
+      "id": "7a04d7e0-90cb-4497-8622-c53e284c2c19",
+      "name": "Golden Eagles",
+      "market": "Southern Miss",
+      "alias": "USM"
+    },
+    {
+      "id": "86fd55fa-3c1e-4dbe-beee-1853dbc88900",
+      "name": "Golden Eagles",
+      "market": "Tennessee Tech",
+      "alias": "TNTC"
+    },
+    {
+      "id": "6f81c322-8398-4f16-83ee-d10cd85e2184",
+      "name": "Golden Flashes",
+      "market": "Kent State",
+      "alias": "KENT"
+    },
+    {
+      "id": "709c25ab-2674-4d9f-9571-69c5ee9363b6",
+      "name": "Golden Gophers",
+      "market": "Minnesota",
+      "alias": "MINN"
+    },
+    {
+      "id": "83bca544-81f2-46cd-8f83-3fe8dbd73a33",
+      "name": "Golden Hurricane",
+      "market": "Tulsa",
+      "alias": "TLSA"
+    },
+    {
+      "id": "224af2d3-3f5d-4a5c-9794-31c393ee77d3",
+      "name": "Golden Knights",
+      "market": "Gannon",
+      "alias": "GU"
+    },
+    {
+      "id": "073da9d4-85ed-4d25-8834-c71e573838b2",
+      "name": "Golden Lions",
+      "market": "Arkansas-Pine Bluff",
+      "alias": "ARPB"
+    },
+    {
+      "id": "cf0465d2-4f02-49ce-b69c-cefb4608c1c6",
+      "name": "Golden Rams",
+      "market": "West Chester",
+      "alias": "WCU"
+    },
+    {
+      "id": "dc99beff-fa60-40a8-8b8a-316f7cea3e93",
+      "name": "Golden Rams",
+      "market": "Albany State",
+      "alias": "ALSU"
+    },
+    {
+      "id": "776b1d36-eb57-437c-8827-1344b03c7593",
+      "name": "Golden Tigers",
+      "market": "Tuskegee",
+      "alias": "TUSK"
+    },
+    {
+      "id": "fea49201-c661-4cb0-b418-20290773e884",
+      "name": "Gorillas",
+      "market": "Pittsburg State",
+      "alias": "PITS"
+    },
+    {
+      "id": "e2a2c23d-3d8d-4f9e-9bed-8a432071f1a7",
+      "name": "Governors",
+      "market": "Austin Peay",
+      "alias": "PEAY"
+    },
+    {
+      "id": "d89b5e61-f3e4-4cf5-98c1-f7e0ec9a76ab",
+      "name": "Great Danes",
+      "market": "University at Albany",
+      "alias": "ALBY"
+    },
+    {
+      "id": "6551124f-312e-49c8-87c4-d1cba14133c7",
+      "name": "Green Wave",
+      "market": "Tulane",
+      "alias": "TULN"
+    },
+    {
+      "id": "86ea7237-2634-4ce2-bbc4-6538776b930e",
+      "name": "Greyhounds",
+      "market": "Assumption",
+      "alias": "ASMP"
+    },
+    {
+      "id": "d37b8146-a1f6-4f57-8569-884073b3d071",
+      "name": "Greyhounds",
+      "market": "Eastern New Mexico",
+      "alias": "ENMU"
+    },
+    {
+      "id": "50f19320-e5d1-453b-8565-469703ef1697",
+      "name": "Greyhounds",
+      "market": "Indianapolis",
+      "alias": "INDI"
+    },
+    {
+      "id": "71bda4ee-51cd-448e-a720-bb88f932a4b9",
+      "name": "Griffins",
+      "market": "Seton Hill",
+      "alias": "SHU"
+    },
+    {
+      "id": "276cc093-ab3a-4298-8dfe-694dbc153525",
+      "name": "Griffons",
+      "market": "Missouri Western",
+      "alias": "MOWS"
+    },
+    {
+      "id": "775f81ea-0942-458c-8e7a-e24f98800ac3",
+      "name": "Grizzlies",
+      "market": "Adams State",
+      "alias": "ADAM"
+    },
+    {
+      "id": "5b99da48-b028-440f-b600-65c50cb8a1d4",
+      "name": "Grizzlies",
+      "market": "Franklin",
+      "alias": "FRNK"
+    },
+    {
+      "id": "465236db-280e-49a6-9575-feb4ca20b9b4",
+      "name": "Grizzlies",
+      "market": "Montana",
+      "alias": "MONT"
+    },
+    {
+      "id": "71b631c0-4e39-40c1-9112-555e90c9313c",
+      "name": "Gusties",
+      "market": "Gustavus Adolphus",
+      "alias": "GAC"
+    },
+    {
+      "id": "6b1ebd18-bdfe-4fae-b53b-280b8d8c66dc",
+      "name": "Gyrenes",
+      "market": "Ave Maria",
+      "alias": "AVE"
+    },
+    {
+      "id": "542d0895-0f3e-4ef8-a2fa-99cfad478e2b",
+      "name": "Hardrockers",
+      "market": "South Dakota Mines",
+      "alias": "SDSMT"
+    },
+    {
+      "id": "018e079b-3848-49bf-8fc6-2d44bbc120a0",
+      "name": "Hatters",
+      "market": "Stetson",
+      "alias": "STET"
+    },
+    {
+      "id": "a2ee495d-37c7-45ac-ac3d-d3a492a219c1",
+      "name": "Hawkeyes",
+      "market": "Iowa",
+      "alias": "IOWA"
+    },
+    {
+      "id": "af0fddc6-0c32-490c-a7a2-5be5dda97999",
+      "name": "Hawks",
+      "market": "Shorter",
+      "alias": "SHRT"
+    },
+    {
+      "id": "091bd8fc-f3e8-4245-834d-44bfdbb4398c",
+      "name": "Hawks",
+      "market": "Chowan",
+      "alias": "CHOW"
+    },
+    {
+      "id": "a5348624-82b2-41e6-b748-492821883610",
+      "name": "Hawks",
+      "market": "Saint Anselm",
+      "alias": "STA"
+    },
+    {
+      "id": "6d5ccf66-48ec-4bb7-98c3-99f50207a221",
+      "name": "Hawks",
+      "market": "Quincy",
+      "alias": "QU"
+    },
+    {
+      "id": "a5431871-5205-4288-bb00-72fc0360523d",
+      "name": "Hawks",
+      "market": "Monmouth",
+      "alias": "MONM"
+    },
+    {
+      "id": "8ddf8cd0-faec-43e4-b194-2ebc0eb6dfa0",
+      "name": "Hilltoppers",
+      "market": "West Liberty State",
+      "alias": "WLU"
+    },
+    {
+      "id": "e65ef52d-6a34-426e-816e-040258d2f33b",
+      "name": "Hilltoppers",
+      "market": "Western Kentucky",
+      "alias": "WKU"
+    },
+    {
+      "id": "5a9498fc-bae2-49d2-af1d-e13d07f4e68f",
+      "name": "Hokies",
+      "market": "Virginia Tech",
+      "alias": "VT"
+    },
+    {
+      "id": "fa0eb091-8e35-49c7-b00f-269794a99a61",
+      "name": "Hoosiers",
+      "market": "Indiana",
+      "alias": "IND"
+    },
+    {
+      "id": "a09e634d-39a8-4aa8-81a4-7337580a31f4",
+      "name": "Horned Frogs",
+      "market": "TCU",
+      "alias": "TCU"
+    },
+    {
+      "id": "ce6b4938-8af7-425d-a420-099f55c136ce",
+      "name": "Hornets",
+      "market": "Emporia State",
+      "alias": "ESU"
+    },
+    {
+      "id": "fce005d9-c29b-4f9c-836b-92a25e765f28",
+      "name": "Hornets",
+      "market": "Delaware State",
+      "alias": "DSU"
+    },
+    {
+      "id": "a4519544-6513-4ed9-bc6b-3b8c415530c3",
+      "name": "Hornets",
+      "market": "Sacramento State",
+      "alias": "SAC"
+    },
+    {
+      "id": "d8c41c53-e302-4425-b95d-532bdbf868a2",
+      "name": "Hornets",
+      "market": "Alabama State",
+      "alias": "ALST"
+    },
+    {
+      "id": "57efa70e-a3ed-463c-b1c7-7cf858fd4edd",
+      "name": "Hornets",
+      "market": "Lynchburg",
+      "alias": "LYN"
+    },
+    {
+      "id": "b5bacc1b-c282-4d2c-b687-747e5c612169",
+      "name": "Hornets",
+      "market": "Concordia (AL)",
+      "alias": "CCA"
+    },
+    {
+      "id": "bafc0723-5b94-41da-9212-ac368281659c",
+      "name": "Hoyas",
+      "market": "Georgetown",
+      "alias": "GTWN"
+    },
+    {
+      "id": "2f475a40-df87-43a7-b8a9-c36a43edff21",
+      "name": "Hurricanes",
+      "market": "Miami (FL)",
+      "alias": "MIA"
+    },
+    {
+      "id": "a610942f-820c-4fc7-9a32-79df473a3e6b",
+      "name": "Huskies",
+      "market": "Michigan Tech",
+      "alias": "MTU"
+    },
+    {
+      "id": "26878834-0b83-4589-b98f-815362ecd48e",
+      "name": "Huskies",
+      "market": "Bloomsburg",
+      "alias": "BUP"
+    },
+    {
+      "id": "0767c157-b084-4239-a684-954a22671bce",
+      "name": "Huskies",
+      "market": "Northern Illinois",
+      "alias": "NIU"
+    },
+    {
+      "id": "1a11c84d-18be-40d0-a354-f188958e16b1",
+      "name": "Huskies",
+      "market": "UConn",
+      "alias": "CONN"
+    },
+    {
+      "id": "7293edba-9810-444b-9df1-709c24d1c522",
+      "name": "Huskies",
+      "market": "Washington",
+      "alias": "WASH"
+    },
+    {
+      "id": "0cbc0bb6-596a-49da-a1cb-bfa42b5fcb56",
+      "name": "Huskies",
+      "market": "Houston Christian",
+      "alias": "HCU"
+    },
+    {
+      "id": "0dc6b614-f6f6-435c-9872-a4d3be5d834b",
+      "name": "Ichabods",
+      "market": "Washburn",
+      "alias": "WASH"
+    },
+    {
+      "id": "e82960cb-8abc-4bee-9624-298bbb623941",
+      "name": "Indians",
+      "market": "Catawba",
+      "alias": "CC"
+    },
+    {
+      "id": "47e6bd48-6207-4316-9b89-f1cfef889746",
+      "name": "Jackrabbits",
+      "market": "South Dakota State",
+      "alias": "SDST"
+    },
+    {
+      "id": "b6fa0a24-da86-4c1d-aed7-7aad175cd249",
+      "name": "Jaguars",
+      "market": "South Alabama",
+      "alias": "USA"
+    },
+    {
+      "id": "b01ba890-a0d2-4b04-a607-a2fc2f5fce86",
+      "name": "Jaguars",
+      "market": "Southern University",
+      "alias": "SOU"
+    },
+    {
+      "id": "e97cce3c-9114-4d11-8a72-51466cb417c8",
+      "name": "Javelinas",
+      "market": "Texas A&M-Kingsville",
+      "alias": "TAMK"
+    },
+    {
+      "id": "d0212bdb-5dd4-4604-a221-9adf26e6fd4a",
+      "name": "Jayhawks",
+      "market": "Kansas",
+      "alias": "KU"
+    },
+    {
+      "id": "86cd96cb-37a6-4dc1-9ab8-faca12b0ca99",
+      "name": "Johnnies",
+      "market": "Saint John's (MN)",
+      "alias": "SJU"
+    },
+    {
+      "id": "828f719f-d208-4c23-b69a-8db47318a7a8",
+      "name": "Keydets",
+      "market": "VMI",
+      "alias": "VMI"
+    },
+    {
+      "id": "53aaad5a-b81b-490e-b04a-b650156cd1db",
+      "name": "Knights",
+      "market": "UCF",
+      "alias": "UCF"
+    },
+    {
+      "id": "e1672257-9c7e-44bd-b951-fb8483f5104c",
+      "name": "Knights",
+      "market": "Carleton",
+      "alias": "CARL"
+    },
+    {
+      "id": "cc6be95b-af60-43db-ab5d-0bdcfd1614c5",
+      "name": "Knights",
+      "market": "Middle Georgia State",
+      "alias": "MGC"
+    },
+    {
+      "id": "0b1cdc10-d570-431a-90f1-c629130e9d5b",
+      "name": "Knights",
+      "market": "St. Andrews",
+      "alias": "STANW"
+    },
+    {
+      "id": "1d1a6543-c77e-4f57-b215-cdaf0e45b0e2",
+      "name": "Knights",
+      "market": "Kentucky Christian",
+      "alias": "KCU"
+    },
+    {
+      "id": "5894d650-0c9e-11ef-8c2a-6d54ed8a6bb6",
+      "name": "Lakers",
+      "market": "Roosevelt",
+      "alias": "ROOS"
+    },
+    {
+      "id": "8454ad82-5c77-4dfc-a034-8e257bc1c5f5",
+      "name": "Lakers",
+      "market": "Grand Valley State",
+      "alias": "GVSU"
+    },
+    {
+      "id": "d34ce724-84bd-40b0-974e-d455f9d96f3a",
+      "name": "Lakers",
+      "market": "Mercyhurst",
+      "alias": "MHU"
+    },
+    {
+      "id": "2516eb07-9a48-436c-b8ee-c14eae88a310",
+      "name": "Leathernecks",
+      "market": "Western Illinois",
+      "alias": "WIU"
+    },
+    {
+      "id": "fa28c870-d148-11ec-8af1-3598bba809d8",
+      "name": "Leopards",
+      "market": "La Verne",
+      "alias": "LAVU"
+    },
+    {
+      "id": "e7805203-b88d-42f2-8d9b-dd66b1b8ae3d",
+      "name": "Leopards",
+      "market": "Lafayette",
+      "alias": "LAF"
+    },
+    {
+      "id": "f870de05-89cf-48fc-9649-8cfa325f8f66",
+      "name": "Lions",
+      "market": "Mars Hill",
+      "alias": "MHU"
+    },
+    {
+      "id": "2e13191e-eb51-4d25-a3c7-7dec1fbfd3c8",
+      "name": "Lions",
+      "market": "Lincoln (PA)",
+      "alias": "LINC"
+    },
+    {
+      "id": "12271f62-34bc-47b9-9c9e-f35d9a1de4e6",
+      "name": "Lions",
+      "market": "Missouri Southern State",
+      "alias": "MSSU"
+    },
+    {
+      "id": "da19fd0e-e1e4-45a0-b962-6d6d4ce0b257",
+      "name": "Lions",
+      "market": "Mount St. Joseph",
+      "alias": "MSJ"
+    },
+    {
+      "id": "2ffd2c8c-9100-46d1-8d33-6e154b0527fc",
+      "name": "Lions",
+      "market": "Southeastern Louisiana",
+      "alias": "SELA"
+    },
+    {
+      "id": "c5dea9dd-3129-40e9-ba3d-363f9411a30e",
+      "name": "Lions",
+      "market": "East Texas A&M",
+      "alias": "ETAM"
+    },
+    {
+      "id": "d123c57b-846b-431a-a211-0decf17f0e62",
+      "name": "Lions",
+      "market": "Lindenwood",
+      "alias": "LINW"
+    },
+    {
+      "id": "917a7888-4be2-4ad5-912d-32f79af931c4",
+      "name": "Lions",
+      "market": "North Alabama",
+      "alias": "UNA"
+    },
+    {
+      "id": "99c8011a-35c8-49d9-8ae7-36386b8a4e23",
+      "name": "Lions",
+      "market": "Columbia",
+      "alias": "CLMB"
+    },
+    {
+      "id": "c4ae5e6a-75dd-47ad-8a5f-6aa5b20cc2cb",
+      "name": "Lions",
+      "market": "Florida Memorial",
+      "alias": "FMU"
+    },
+    {
+      "id": "cf24d789-c074-4cae-b939-958e764e7e0f",
+      "name": "Lions",
+      "market": "Langston",
+      "alias": "LANG"
+    },
+    {
+      "id": "ad6bc890-d8ac-11ed-8008-21e6e877c549",
+      "name": "Little Giants",
+      "market": "Wabash",
+      "alias": "WABC"
+    },
+    {
+      "id": "95d70b20-14c0-11f0-93ea-170fec45e650",
+      "name": "Lobos",
+      "market": "Sul Ross State",
+      "alias": "SRSU"
+    },
+    {
+      "id": "02cd61b6-2dad-4b3d-94cd-1c1c3cdbf3ad",
+      "name": "Lobos",
+      "market": "New Mexico",
+      "alias": "UNM"
+    },
+    {
+      "id": "ae68bc50-4135-47b5-b2f1-03d0669e54c8",
+      "name": "Longhorns",
+      "market": "Texas",
+      "alias": "TEX"
+    },
+    {
+      "id": "73ab49c8-e08e-436e-bc12-092c34294d4d",
+      "name": "Lopers",
+      "market": "Nebraska-Kearney",
+      "alias": "UNEK"
+    },
+    {
+      "id": "52f28fe6-2823-4f26-80ce-605a04e624da",
+      "name": "Lumberjacks",
+      "market": "Stephen F. Austin",
+      "alias": "SFA"
+    },
+    {
+      "id": "9019d9cc-d8e7-4241-99f3-9a335b2aabbc",
+      "name": "Lumberjacks",
+      "market": "Northern Arizona",
+      "alias": "NAU"
+    },
+    {
+      "id": "3bf5f228-9e03-4050-bb38-b2347d1bf4f4",
+      "name": "Marauders",
+      "market": "Mary",
+      "alias": "MARY"
+    },
+    {
+      "id": "2732b3cd-06b1-4644-a813-23d253d60e9c",
+      "name": "Marauders",
+      "market": "Millersville",
+      "alias": "MILL"
+    },
+    {
+      "id": "ece6b3f2-ffaf-4700-9b59-206f9791311e",
+      "name": "Marauders",
+      "market": "Central State (OH)",
+      "alias": "CSU"
+    },
+    {
+      "id": "3797e777-4e75-413f-9866-f9f9ded35a8f",
+      "name": "Maroon Tigers",
+      "market": "Morehouse",
+      "alias": "MC"
+    },
+    {
+      "id": "3a860a07-ec2b-4237-b6d0-45e018ebd6b7",
+      "name": "Mavericks",
+      "market": "Colorado Mesa",
+      "alias": "CMU"
+    },
+    {
+      "id": "02dc393b-f376-47c0-962f-8994a5d0b968",
+      "name": "Mavericks",
+      "market": "Minnesota State",
+      "alias": "MNSU"
+    },
+    {
+      "id": "2a828de7-53d6-4a35-9f55-9aaa226956ed",
+      "name": "Mean Green",
+      "market": "North Texas",
+      "alias": "UNT"
+    },
+    {
+      "id": "b1ff8076-e373-4b6a-ab0f-7f8f86bf0370",
+      "name": "Midshipmen",
+      "market": "Navy",
+      "alias": "NAVY"
+    },
+    {
+      "id": "826d2817-9ee1-4d72-9079-a555ccb65e15",
+      "name": "Mighty Falcons",
+      "market": "St. Augustine's",
+      "alias": "SAU"
+    },
+    {
+      "id": "8d392cef-6e01-4cb7-ac37-b2a1878adea5",
+      "name": "Miners",
+      "market": "Missouri S&T",
+      "alias": "MZST"
+    },
+    {
+      "id": "1e1e3a19-cb5a-48a6-b961-a5359d21812d",
+      "name": "Miners",
+      "market": "UTEP",
+      "alias": "UTEP"
+    },
+    {
+      "id": "7f6bddcc-db68-4bcc-9450-43274e5556ab",
+      "name": "Minutemen",
+      "market": "UMass",
+      "alias": "MASS"
+    },
+    {
+      "id": "0d04c99b-4ff5-4cec-a172-e579a1f8f54a",
+      "name": "Mocs",
+      "market": "Chattanooga",
+      "alias": "CHAT"
+    },
+    {
+      "id": "c7384d59-3901-4342-8dbc-31801d925d11",
+      "name": "Monarchs",
+      "market": "Old Dominion",
+      "alias": "ODU"
+    },
+    {
+      "id": "bbd829f6-77b1-4ca0-8250-7dd95c47218d",
+      "name": "Monarchs",
+      "market": "Methodist",
+      "alias": "MU"
+    },
+    {
+      "id": "f9892793-047e-4c2f-90c3-f705bc95e8a0",
+      "name": "Moundbuilders",
+      "market": "Southwestern (KS)",
+      "alias": "SWC"
+    },
+    {
+      "id": "8bea15d4-278d-4578-a7b4-dcf3af54c334",
+      "name": "Mountain Hawks",
+      "market": "Lehigh",
+      "alias": "LEH"
+    },
+    {
+      "id": "a615af19-5cf1-4377-80e5-70f77446094c",
+      "name": "Mountain Lions",
+      "market": "Concord",
+      "alias": "CUWV"
+    },
+    {
+      "id": "decc2870-8660-4f2c-8674-fe05ee6b1b7e",
+      "name": "Mountaineers",
+      "market": "Western Colorado",
+      "alias": "WSC"
+    },
+    {
+      "id": "da992ee8-f2dd-4196-a74a-c1ca4cd2d559",
+      "name": "Mountaineers",
+      "market": "Appalachian State",
+      "alias": "APP"
+    },
+    {
+      "id": "7268f3da-94eb-43c0-86c0-a37f854d5c9d",
+      "name": "Mountaineers",
+      "market": "West Virginia",
+      "alias": "WVU"
+    },
+    {
+      "id": "6ea445c8-99a8-4952-8979-d27b7a39e26b",
+      "name": "Mountaineers",
+      "market": "Eastern Oregon",
+      "alias": "EOR"
+    },
+    {
+      "id": "1f2b538a-b87c-48e1-86e2-2396fdfc5bfc",
+      "name": "Muleriders",
+      "market": "Southern Arkansas",
+      "alias": "SARK"
+    },
+    {
+      "id": "1cfcf55b-8038-46ad-9a6a-177090ea9b75",
+      "name": "Mules",
+      "market": "Central Missouri",
+      "alias": "UCM"
+    },
+    {
+      "id": "79a845fe-3a55-4db9-97ea-aa921e963087",
+      "name": "Mustangs",
+      "market": "Western New Mexico",
+      "alias": "WNMU"
+    },
+    {
+      "id": "f257221b-d99d-4b0f-b0e3-6a5bc3f9e165",
+      "name": "Mustangs",
+      "market": "Midwestern State",
+      "alias": "MWSU"
+    },
+    {
+      "id": "ec58cf3f-c432-40f7-b6c2-51c712ca883b",
+      "name": "Mustangs",
+      "market": "Southwest Minnesota State",
+      "alias": "SWMN"
+    },
+    {
+      "id": "619c5384-3660-44ac-b2ad-597ccb3854c7",
+      "name": "Mustangs",
+      "market": "SMU",
+      "alias": "SMU"
+    },
+    {
+      "id": "ff330f91-bacc-4c43-b14e-604c58115ebd",
+      "name": "Mustangs",
+      "market": "Cal Poly",
+      "alias": "CP"
+    },
+    {
+      "id": "eeb3ce19-6ddd-4c91-afab-811c6cc81974",
+      "name": "Nittany Lions",
+      "market": "Penn State",
+      "alias": "PSU"
+    },
+    {
+      "id": "e38b87e4-46f0-448e-b155-853abea2b437",
+      "name": "Oaklanders",
+      "market": "Lincoln (CA)",
+      "alias": "LUCA"
+    },
+    {
+      "id": "ec389220-dd6c-4055-b28c-7d1cc4268b86",
+      "name": "Oaks",
+      "market": "Menlo",
+      "alias": "MEN"
+    },
+    {
+      "id": "e2debfba-6ab5-41e0-9bf8-ec652a3fbf7b",
+      "name": "Oilers",
+      "market": "Findlay",
+      "alias": "FIND"
+    },
+    {
+      "id": "83e1b5c2-16f5-4e61-a297-ee2213b6f767",
+      "name": "Oles",
+      "market": "St. Olaf",
+      "alias": "SOC"
+    },
+    {
+      "id": "6fad29be-d988-4014-9640-ad26a14d3bd1",
+      "name": "Orange",
+      "market": "Syracuse",
+      "alias": "SYR"
+    },
+    {
+      "id": "935ac597-31d0-494c-801e-6d0b77d016b2",
+      "name": "Orediggers",
+      "market": "Colorado School of Mines",
+      "alias": "CSM"
+    },
+    {
+      "id": "6eef6abb-cb49-4f47-8441-775461d12d4d",
+      "name": "Owls",
+      "market": "Southern Connecticut State",
+      "alias": "SCSU"
+    },
+    {
+      "id": "515e9431-e87d-4d3e-8916-3ecaa0a05034",
+      "name": "Owls",
+      "market": "Kennesaw State",
+      "alias": "KENN"
+    },
+    {
+      "id": "31cc5b49-fbc5-4aca-9196-fbcce6bc6ad9",
+      "name": "Owls",
+      "market": "Rice",
+      "alias": "RICE"
+    },
+    {
+      "id": "c14ef8dc-4d15-401f-a47a-74f15f372b04",
+      "name": "Owls",
+      "market": "Temple",
+      "alias": "TEM"
+    },
+    {
+      "id": "c951e9e7-f0b8-4da6-9913-b35572316314",
+      "name": "Owls",
+      "market": "Florida Atlantic",
+      "alias": "FAU"
+    },
+    {
+      "id": "8cf5c880-678f-400e-b4c2-04ae676ed538",
+      "name": "Paladins",
+      "market": "Furman",
+      "alias": "FUR"
+    },
+    {
+      "id": "8e40ed14-9c8b-48a3-9b1a-d40e3c4be484",
+      "name": "Panthers",
+      "market": "Florida Tech",
+      "alias": "FIT"
+    },
+    {
+      "id": "a3b7b788-707a-48b7-96f3-96a156e8b1fe",
+      "name": "Panthers",
+      "market": "Virginia Union",
+      "alias": "VUU"
+    },
+    {
+      "id": "718baf86-e572-48ea-995e-776da3858fe8",
+      "name": "Panthers",
+      "market": "Davenport",
+      "alias": "DPORT"
+    },
+    {
+      "id": "4f250a86-ca47-4a64-aa9d-a08580411e64",
+      "name": "Panthers",
+      "market": "Kentucky Wesleyan",
+      "alias": "KY-W"
+    },
+    {
+      "id": "e11948d2-4374-4e02-9453-2cbdf608a60a",
+      "name": "Panthers",
+      "market": "Ohio Dominican",
+      "alias": "OHDU"
+    },
+    {
+      "id": "73b194d5-d0e3-49ac-a4a5-cce70ab62e5e",
+      "name": "Panthers",
+      "market": "Clark Atlanta",
+      "alias": "CAU"
+    },
+    {
+      "id": "3eaae970-14c0-11f0-93ea-170fec45e650",
+      "name": "Panthers",
+      "market": "Ferrum",
+      "alias": "FC"
+    },
+    {
+      "id": "a5ef8db1-5d26-4d7e-af22-b21e380c16d2",
+      "name": "Panthers",
+      "market": "Pittsburgh",
+      "alias": "PITT"
+    },
+    {
+      "id": "8e99908e-4ff2-4465-8e1b-156dcf7aa69d",
+      "name": "Panthers",
+      "market": "Florida International",
+      "alias": "FIU"
+    },
+    {
+      "id": "4f776283-3758-4325-b633-31a5be257a80",
+      "name": "Panthers",
+      "market": "Georgia State",
+      "alias": "GAST"
+    },
+    {
+      "id": "b3364bc0-f76d-11ee-a573-b937b2b50f42",
+      "name": "Panthers",
+      "market": "Hanover",
+      "alias": "HANO"
+    },
+    {
+      "id": "9ffed847-1c74-4220-936d-c4ced74f4430",
+      "name": "Panthers",
+      "market": "Birmingham-Southern",
+      "alias": "BSC"
+    },
+    {
+      "id": "5b790142-1e09-40cd-b06a-4c2e85893698",
+      "name": "Panthers",
+      "market": "Northern Iowa",
+      "alias": "UNI"
+    },
+    {
+      "id": "c33dd300-2cc3-4a53-ab01-be4d65c74e1e",
+      "name": "Panthers",
+      "market": "Eastern Illinois",
+      "alias": "EIU"
+    },
+    {
+      "id": "d70a06f4-b708-447b-b05a-f518695cda42",
+      "name": "Panthers",
+      "market": "Prairie View A&M",
+      "alias": "PV"
+    },
+    {
+      "id": "0707e866-8121-4f10-b181-af607901ead2",
+      "name": "Peacocks",
+      "market": "Upper Iowa",
+      "alias": "UIU"
+    },
+    {
+      "id": "868731af-6062-409f-841d-73e6f8ec3b99",
+      "name": "Penguins",
+      "market": "Youngstown State",
+      "alias": "YSU"
+    },
+    {
+      "id": "882d5415-fa65-40a0-9cdf-afe51ca30ce0",
+      "name": "Phoenix",
+      "market": "Elon",
+      "alias": "ELON"
+    },
+    {
+      "id": "e19e9d6b-2339-499f-a370-68142810c920",
+      "name": "Phoenix",
+      "market": "Cumberland",
+      "alias": "CUMB"
+    },
+    {
+      "id": "88006ae0-74e0-4d9a-a447-7c7bc3275a42",
+      "name": "Pioneers",
+      "market": "Tusculum",
+      "alias": "TC"
+    },
+    {
+      "id": "053ad147-4bfd-406a-897e-04209cb444e8",
+      "name": "Pioneers",
+      "market": "Glenville State College",
+      "alias": "GSC"
+    },
+    {
+      "id": "c4f1932a-16ec-45b7-a321-38acef929d03",
+      "name": "Pioneers",
+      "market": "Sacred Heart",
+      "alias": "SHU"
+    },
+    {
+      "id": "900df16a-e89b-4806-886c-f2413343d0a7",
+      "name": "Pioneers",
+      "market": "Wayland Baptist",
+      "alias": "WAYB"
+    },
+    {
+      "id": "bfe1b361-fed9-4d5c-a98a-c1915ced488d",
+      "name": "Pipers",
+      "market": "Hamline",
+      "alias": "HAML"
+    },
+    {
+      "id": "e3b9e7df-4b69-4d27-9948-59491c29be86",
+      "name": "Pirates",
+      "market": "East Carolina",
+      "alias": "ECU"
+    },
+    {
+      "id": "55da9c15-db47-49d1-9a39-78ef11f2051b",
+      "name": "Pirates",
+      "market": "Hampton",
+      "alias": "HAMP"
+    },
+    {
+      "id": "46d9d950-d8ac-11ed-8008-21e6e877c549",
+      "name": "Pointers",
+      "market": "Wisconsin-Stevens Point",
+      "alias": "UWSP"
+    },
+    {
+      "id": "2c6f6630-3015-11f0-89fb-dbc14ef36751",
+      "name": "Pride",
+      "market": "Greensboro",
+      "alias": "GRC"
+    },
+    {
+      "id": "67d944c2-f236-470b-bee6-85c58ab8094d",
+      "name": "Privateers",
+      "market": "SUNY-Maritime",
+      "alias": "SUNYM"
+    },
+    {
+      "id": "c57c0ee8-068f-406b-a05d-974c717f82c1",
+      "name": "Quakers",
+      "market": "Guilford",
+      "alias": "GC"
+    },
+    {
+      "id": "44c0deff-f542-4afe-a5c7-43df3bd51d5b",
+      "name": "Quakers",
+      "market": "Penn",
+      "alias": "PENN"
+    },
+    {
+      "id": "3a4f3861-0fb8-42e0-93b5-8fd41fa82192",
+      "name": "Racers",
+      "market": "Murray State",
+      "alias": "MURR"
+    },
+    {
+      "id": "2dec939a-f303-43ac-964d-37e81f75e286",
+      "name": "Ragin' Cajuns",
+      "market": "Louisiana",
+      "alias": "ULL"
+    },
+    {
+      "id": "411a9916-0398-4b58-9210-fd81e5e6fe32",
+      "name": "Raiders",
+      "market": "Shippensburg University",
+      "alias": "SU"
+    },
+    {
+      "id": "84a2e6d9-1c1b-47f0-ba71-10dc03f05a0f",
+      "name": "Raiders",
+      "market": "Colgate",
+      "alias": "COLG"
+    },
+    {
+      "id": "bad5aaf6-1c72-4c27-9c34-10f915570646",
+      "name": "Raiders",
+      "market": "Southern Oregon",
+      "alias": "SOR"
+    },
+    {
+      "id": "97673f68-cb54-4025-abe6-c8ea0e2ec7d9",
+      "name": "Rainbow Warriors",
+      "market": "Hawai'i",
+      "alias": "HAW"
+    },
+    {
+      "id": "afc35bbf-6f0a-4710-9034-edb2f4d0c1c1",
+      "name": "Rams",
+      "market": "Winston-Salem State",
+      "alias": "WSSU"
+    },
+    {
+      "id": "ca9c4181-7c06-4e8f-b752-27ee5327295e",
+      "name": "Rams",
+      "market": "Angelo State",
+      "alias": "ANGS"
+    },
+    {
+      "id": "716894ad-f6db-4f00-9282-1a10a18665d5",
+      "name": "Rams",
+      "market": "Shepherd",
+      "alias": "SHEP"
+    },
+    {
+      "id": "04f8c610-fe83-4b44-a3fc-02394869b81f",
+      "name": "Rams",
+      "market": "Colorado State",
+      "alias": "CSU"
+    },
+    {
+      "id": "f4593f19-1082-4238-b519-09faadbeca37",
+      "name": "Rams",
+      "market": "Fordham",
+      "alias": "FOR"
+    },
+    {
+      "id": "50767f7e-8543-4b94-b2b7-486ea647b5c1",
+      "name": "Rams",
+      "market": "Rhode Island",
+      "alias": "URI"
+    },
+    {
+      "id": "c0e09611-893e-426c-ae6e-873a65f33b69",
+      "name": "Rams",
+      "market": "Texas Wesleyan",
+      "alias": "TWU"
+    },
+    {
+      "id": "cbf74a20-45d7-416e-ac9a-cb4965564005",
+      "name": "Rams",
+      "market": "Bluefield",
+      "alias": "BLUE"
+    },
+    {
+      "id": "dd048090-4399-420b-97bd-c0774ac89fc7",
+      "name": "Rangers",
+      "market": "Northwestern Oklahoma State",
+      "alias": "NOSU"
+    },
+    {
+      "id": "184584ac-2cee-4c66-b207-552fe3dc94ab",
+      "name": "Rattlers",
+      "market": "Florida A&M",
+      "alias": "FAMU"
+    },
+    {
+      "id": "851e306c-edee-414a-949d-c6a69f435a03",
+      "name": "Ravens",
+      "market": "Franklin Pierce",
+      "alias": "FPU"
+    },
+    {
+      "id": "37da21e0-fa1e-11ef-a78f-778dbdf44fb0",
+      "name": "Ravens",
+      "market": "Westgate Christian",
+      "alias": "WEST"
+    },
+    {
+      "id": "52dc23de-c6ba-4467-b964-a433658eded2",
+      "name": "Razorbacks",
+      "market": "Arkansas",
+      "alias": "ARK"
+    },
+    {
+      "id": "5f105ef1-4d01-45a5-bfbb-497ee86a8eba",
+      "name": "Rebels",
+      "market": "UNLV",
+      "alias": "UNLV"
+    },
+    {
+      "id": "e3df6700-2881-4b02-a170-f397bb5718a9",
+      "name": "Rebels",
+      "market": "Ole Miss",
+      "alias": "MISS"
+    },
+    {
+      "id": "d4e8867e-8465-451e-b196-5e152769f023",
+      "name": "Red Flash",
+      "market": "St. Francis (PA)",
+      "alias": "SFPA"
+    },
+    {
+      "id": "6c04ed00-92e9-40ae-8a83-c4733e81f2b3",
+      "name": "Red Foxes",
+      "market": "Marist",
+      "alias": "MRST"
+    },
+    {
+      "id": "22083fa4-8d9c-4ccc-8c33-cda772954099",
+      "name": "Red Raiders",
+      "market": "Texas Tech",
+      "alias": "TTU"
+    },
+    {
+      "id": "fd1996f0-d33a-11ed-a207-11b55144eb6a",
+      "name": "Red Raiders",
+      "market": "Northwestern (IA)",
+      "alias": "NWIA"
+    },
+    {
+      "id": "b33187c4-a906-4cff-b15b-f1bcb410a743",
+      "name": "Red Wolves",
+      "market": "Arkansas State",
+      "alias": "ARST"
+    },
+    {
+      "id": "25a0e60a-2452-494b-8d9e-5177962cf569",
+      "name": "RedHawks",
+      "market": "Miami (OH)",
+      "alias": "M-OH"
+    },
+    {
+      "id": "e0f7a166-aa14-4979-9d7d-44f36c1e13a6",
+      "name": "Redbirds",
+      "market": "Illinois State",
+      "alias": "ILST"
+    },
+    {
+      "id": "0a15a1ce-e029-4a73-9cec-dabfebc6d549",
+      "name": "Reddies",
+      "market": "Henderson State",
+      "alias": "HSU"
+    },
+    {
+      "id": "4eb165ff-ebe8-4a9e-8a57-34ec90f112e4",
+      "name": "Redhawks",
+      "market": "Southeast Missouri State",
+      "alias": "SEMO"
+    },
+    {
+      "id": "72566033-9632-432f-b63a-3942e54bd7c5",
+      "name": "RiverHawks",
+      "market": "Northeastern State",
+      "alias": "NESU"
+    },
+    {
+      "id": "b845a41f-2606-478f-a458-3fee79588ad8",
+      "name": "Roadrunners",
+      "market": "UTSA",
+      "alias": "UTSA"
+    },
+    {
+      "id": "692e1f0e-3c3a-4223-b2cf-7bbc58cf4977",
+      "name": "Rockets",
+      "market": "Toledo",
+      "alias": "TOL"
+    },
+    {
+      "id": "60190587-8218-4622-9a55-f33560b7d18f",
+      "name": "Royals",
+      "market": "Bethel (MN)",
+      "alias": "BETHM"
+    },
+    {
+      "id": "2ed1462d-6670-4094-a86d-d723ae3b1886",
+      "name": "Royals",
+      "market": "Warner",
+      "alias": "WARN"
+    },
+    {
+      "id": "c6ce892d-c14d-44cd-ad3a-7d4ed60ee1f9",
+      "name": "Runnin' Bulldogs",
+      "market": "Gardner-Webb",
+      "alias": "WEBB"
+    },
+    {
+      "id": "23efdc8b-f31b-4827-bc04-15cdd9edbe78",
+      "name": "Saints",
+      "market": "Limestone",
+      "alias": "LIME"
+    },
+    {
+      "id": "a7fea04a-5e83-41b6-8311-bcdb80ea7f4b",
+      "name": "Saints",
+      "market": "St. Scholastica",
+      "alias": "CSS"
+    },
+    {
+      "id": "f2874e00-e446-11ec-997e-b9b31b9613e9",
+      "name": "Saints",
+      "market": "Thomas More",
+      "alias": "TMC"
+    },
+    {
+      "id": "03ccfba9-247e-42d3-b9ce-66cb2730c059",
+      "name": "Saints",
+      "market": "College of Faith - Charlotte",
+      "alias": "CFC"
+    },
+    {
+      "id": "3ef463a9-30ac-42a6-ab8c-ce34fb66ca79",
+      "name": "Salukis",
+      "market": "Southern Illinois",
+      "alias": "SIU"
+    },
+    {
+      "id": "bd0fbdec-b0a9-4fbb-860f-6ee0ddded24f",
+      "name": "Savage Storm",
+      "market": "Southeastern Oklahoma State",
+      "alias": "SOSU"
+    },
+    {
+      "id": "a60012f8-dc22-4c7d-9d1b-c00cdc3e9c97",
+      "name": "Scarlet Knights",
+      "market": "Rutgers",
+      "alias": "RUTG"
+    },
+    {
+      "id": "311eb983-3141-4a6e-b61f-27ef1743b8fd",
+      "name": "Scots",
+      "market": "Maryville (TN)",
+      "alias": "MVC"
+    },
+    {
+      "id": "68e4ccc3-2268-4089-af65-d891b0c9c673",
+      "name": "Scots",
+      "market": "Monmouth College",
+      "alias": "MONC"
+    },
+    {
+      "id": "966bcc98-4e61-42cc-9de6-3151e002efe2",
+      "name": "Seahawks",
+      "market": "Salve Regina",
+      "alias": "SALV"
+    },
+    {
+      "id": "a676268a-159e-4625-bb5d-b3929c1f67f6",
+      "name": "Seahawks",
+      "market": "Wagner",
+      "alias": "WAG"
+    },
+    {
+      "id": "82adc0a0-d140-11ec-bd73-5fb6b9dd2642",
+      "name": "Seahawks",
+      "market": "Keiser",
+      "alias": "KEIS"
+    },
+    {
+      "id": "0fe698d9-b78e-4da5-bc92-c45d84671082",
+      "name": "Seawolves",
+      "market": "Stony Brook",
+      "alias": "STON"
+    },
+    {
+      "id": "1c792ab1-d640-48f2-b796-6a81c7b14eaf",
+      "name": "Seminoles",
+      "market": "Florida State",
+      "alias": "FSU"
+    },
+    {
+      "id": "5adcf237-519d-485c-aea6-81af204cb99b",
+      "name": "Setters",
+      "market": "Pace",
+      "alias": "PACE"
+    },
+    {
+      "id": "b3eaa1b0-3e95-417d-80e8-77d3b93f23ac",
+      "name": "Sharks",
+      "market": "LIU",
+      "alias": "LIU"
+    },
+    {
+      "id": "f9e24477-caf3-4be2-ae6a-26dfcbb26cfc",
+      "name": "Skyhawks",
+      "market": "Fort Lewis",
+      "alias": "FLC"
+    },
+    {
+      "id": "90d576f6-50f9-42bc-aa31-92bfd0597cb1",
+      "name": "Skyhawks",
+      "market": "Tennessee-Martin",
+      "alias": "UTM"
+    },
+    {
+      "id": "642dacba-ddf7-4a1f-bcc8-72b0e6f74dc4",
+      "name": "Skyhawks",
+      "market": "Stonehill",
+      "alias": "STNH"
+    },
+    {
+      "id": "af78bbe6-aae3-4a2b-af93-836bb0e35fad",
+      "name": "Skyhawks",
+      "market": "Point University",
+      "alias": "PU"
+    },
+    {
+      "id": "242f21d8-7372-4359-a04f-4d467ead22d6",
+      "name": "Sooners",
+      "market": "Oklahoma",
+      "alias": "OKLA"
+    },
+    {
+      "id": "edc91db3-9a77-4af6-aa9b-b8a67930ba51",
+      "name": "Spartans",
+      "market": "San Jose State",
+      "alias": "SJSU"
+    },
+    {
+      "id": "1cdf66a2-f157-4b4f-ad37-bd31e268f0ae",
+      "name": "Spartans",
+      "market": "Michigan State",
+      "alias": "MSU"
+    },
+    {
+      "id": "dde53ce9-ee62-44e6-98c5-060a9a97bd10",
+      "name": "Spartans",
+      "market": "Norfolk State",
+      "alias": "NORF"
+    },
+    {
+      "id": "1e64a215-05f4-46ff-8840-058348de0d97",
+      "name": "Spartans",
+      "market": "Missouri Baptist",
+      "alias": "MBU"
+    },
+    {
+      "id": "05639ea0-a3e6-4d56-b257-366545b0ff4d",
+      "name": "Spiders",
+      "market": "Richmond",
+      "alias": "RICH"
+    },
+    {
+      "id": "42f93ad6-d650-4f44-9871-39d40945ad68",
+      "name": "Stallions",
+      "market": "North American",
+      "alias": "NAU"
+    },
+    {
+      "id": "dfde9bcf-f6ed-44a8-ae71-5b37245ad7da",
+      "name": "Statesmen",
+      "market": "Delta State",
+      "alias": "DSU"
+    },
+    {
+      "id": "4c6f21e2-622f-4ea7-8667-4820ae54a16e",
+      "name": "Statesmen",
+      "market": "William Penn",
+      "alias": "WPU"
+    },
+    {
+      "id": "31ae1b90-6963-4d51-86dc-c3420dc5d499",
+      "name": "Steers",
+      "market": "Texas College",
+      "alias": "TEXC"
+    },
+    {
+      "id": "97d4ea8b-cd88-4689-b0b0-e59214166522",
+      "name": "Storm",
+      "market": "Lake Erie",
+      "alias": "LEC"
+    },
+    {
+      "id": "00fd8418-0e62-4366-9a2a-d5f72850066c",
+      "name": "Sun Devils",
+      "market": "Arizona State",
+      "alias": "ASU"
+    },
+    {
+      "id": "c717c1e3-3ab7-439c-9b75-dff83fc138f5",
+      "name": "Swedes",
+      "market": "Bethany (KS)",
+      "alias": "BETH"
+    },
+    {
+      "id": "24215f91-06e7-4d28-addf-10e499c15db2",
+      "name": "Sycamores",
+      "market": "Indiana State",
+      "alias": "INST"
+    },
+    {
+      "id": "e7ce7680-f058-11ee-89df-6558e107cb95",
+      "name": "TBD",
+      "market": "Team",
+      "alias": "TBD"
+    },
+    {
+      "id": "79368b86-8bb0-4c66-8189-b836d039c207",
+      "name": "Tar Heels",
+      "market": "North Carolina",
+      "alias": "UNC"
+    },
+    {
+      "id": "f6dac8ea-c477-45f6-b6dd-aa4957acb09a",
+      "name": "Tartans",
+      "market": "Carnegie Mellon",
+      "alias": "CM"
+    },
+    {
+      "id": "e2a7ee48-c096-4aac-a7a2-4f1f35baa835",
+      "name": "Terrapins",
+      "market": "Maryland",
+      "alias": "MD"
+    },
+    {
+      "id": "46188043-b51d-41f5-9e76-b72ee3263ccc",
+      "name": "Terriers",
+      "market": "Wofford",
+      "alias": "WOF"
+    },
+    {
+      "id": "ed05b9d3-0086-49bb-9ea5-329ab0d0729b",
+      "name": "Texans",
+      "market": "Tarleton State",
+      "alias": "TARL"
+    },
+    {
+      "id": "bb4d3df3-9a14-4bc9-9e50-55ccf13623a9",
+      "name": "The Rock",
+      "market": "Slippery Rock",
+      "alias": "SRU"
+    },
+    {
+      "id": "67f319bb-fdae-4d0c-81ca-544c08c86f94",
+      "name": "Thorobreds",
+      "market": "Kentucky State",
+      "alias": "KSU"
+    },
+    {
+      "id": "fe3d6610-e0c4-49d2-bf20-3885dec77c94",
+      "name": "ThunderWolves",
+      "market": "CSU-Pueblo",
+      "alias": "CSUP"
+    },
+    {
+      "id": "65736666-38a3-4737-9bea-785641533719",
+      "name": "Thunderbirds",
+      "market": "Southern Utah",
+      "alias": "SUU"
+    },
+    {
+      "id": "77ffe1ca-a84c-4779-9293-345dcfb2c4ce",
+      "name": "Thundering Herd",
+      "market": "Marshall",
+      "alias": "MRSH"
+    },
+    {
+      "id": "262fb885-6414-4d94-9cd1-5b53ab1a631a",
+      "name": "Tigers",
+      "market": "West Alabama",
+      "alias": "UWA"
+    },
+    {
+      "id": "24c7f92b-6d94-4e3f-b9ed-c1003ee7e85f",
+      "name": "Tigers",
+      "market": "Fort Hays State",
+      "alias": "FHSU"
+    },
+    {
+      "id": "4b3b68f4-aa9a-4029-9a43-ebd174f43a0e",
+      "name": "Tigers",
+      "market": "Savannah State",
+      "alias": "SAV"
+    },
+    {
+      "id": "fee68c38-6b2c-452a-968b-5dd2d363b18d",
+      "name": "Tigers",
+      "market": "Benedict",
+      "alias": "BC"
+    },
+    {
+      "id": "187d4a95-91e1-4db4-a8dd-8a412bab73e4",
+      "name": "Tigers",
+      "market": "East Central",
+      "alias": "ECNT"
+    },
+    {
+      "id": "99b5c888-6981-4f76-9920-1f144ecd219d",
+      "name": "Tigers",
+      "market": "Ouachita Baptist",
+      "alias": "OBU"
+    },
+    {
+      "id": "95404613-f4f0-4280-ac27-85419215f8d1",
+      "name": "Tigers",
+      "market": "Clemson",
+      "alias": "CLEM"
+    },
+    {
+      "id": "7c3a4847-5a1d-422f-b15b-dcc5f8cc5e24",
+      "name": "Tigers",
+      "market": "Memphis",
+      "alias": "MEM"
+    },
+    {
+      "id": "772536c7-c3e8-40d1-ac6e-232d719dc052",
+      "name": "Tigers",
+      "market": "Missouri",
+      "alias": "MIZZ"
+    },
+    {
+      "id": "e5bbd1bd-0d65-4581-8d9c-58b33fd5ce62",
+      "name": "Tigers",
+      "market": "Auburn",
+      "alias": "AUB"
+    },
+    {
+      "id": "ffca4209-dbfa-4597-b25a-ed19bb351037",
+      "name": "Tigers",
+      "market": "LSU",
+      "alias": "LSU"
+    },
+    {
+      "id": "5057e06b-1f2a-49ec-87fd-af30ad27b6ef",
+      "name": "Tigers",
+      "market": "DePauw",
+      "alias": "DEPU"
+    },
+    {
+      "id": "6e98e07c-0a7c-43f5-aeac-580f0bfe110e",
+      "name": "Tigers",
+      "market": "Wittenberg",
+      "alias": "WITT"
+    },
+    {
+      "id": "c4d1b382-e6a4-4fce-aae8-d0a6ec133e8c",
+      "name": "Tigers",
+      "market": "Towson",
+      "alias": "TOWS"
+    },
+    {
+      "id": "bd9c2213-ffd1-4009-aa75-37f5bdfc4f03",
+      "name": "Tigers",
+      "market": "Tennessee State",
+      "alias": "TNST"
+    },
+    {
+      "id": "d7a03859-f629-4b91-af0a-3bd86a6a3e7f",
+      "name": "Tigers",
+      "market": "Jackson State",
+      "alias": "JKST"
+    },
+    {
+      "id": "f5682334-edd4-42ef-a4fb-5a1474875b9b",
+      "name": "Tigers",
+      "market": "Grambling State",
+      "alias": "GRAM"
+    },
+    {
+      "id": "f9ae197b-be07-4c7b-9149-2e134cf4b677",
+      "name": "Tigers",
+      "market": "Texas Southern",
+      "alias": "TXSO"
+    },
+    {
+      "id": "fbd30b5d-6d84-49f7-abf1-c2c73f9e2458",
+      "name": "Tigers",
+      "market": "Princeton",
+      "alias": "PRIN"
+    },
+    {
+      "id": "f569e80e-ddce-4de6-a5cd-427f3e1454d0",
+      "name": "Tigers",
+      "market": "Edward Waters",
+      "alias": "EWC"
+    },
+    {
+      "id": "115a1013-4575-4c5b-b96a-9408deba6036",
+      "name": "Tigers",
+      "market": "Campbellsville",
+      "alias": "CMPB"
+    },
+    {
+      "id": "ba400900-033a-11ef-ad9e-ef53d092d221",
+      "name": "Tigers",
+      "market": "Georgetown College",
+      "alias": "GC"
+    },
+    {
+      "id": "1238697f-d458-423c-856d-86dbfbfb42ff",
+      "name": "Timberwolves",
+      "market": "Northwood",
+      "alias": "NWOOD"
+    },
+    {
+      "id": "8320133e-859d-435a-b2bd-d3061afd07dd",
+      "name": "Titans",
+      "market": "Wisconsin-Oshkosh",
+      "alias": "UWO"
+    },
+    {
+      "id": "36680161-4534-4723-bc72-84066a84ffe9",
+      "name": "Tommies",
+      "market": "St. Thomas",
+      "alias": "UST"
+    },
+    {
+      "id": "3faf7dcc-91ed-4398-86ba-80122955315b",
+      "name": "Toreros",
+      "market": "San Diego",
+      "alias": "USD"
+    },
+    {
+      "id": "3415df55-483b-47e9-a138-568151b1d773",
+      "name": "Tornados",
+      "market": "Brevard College",
+      "alias": "BVC"
+    },
+    {
+      "id": "91d73565-e7a5-492d-9b2d-0201fb2be141",
+      "name": "Trailblazers",
+      "market": "Utah Tech",
+      "alias": "UTU"
+    },
+    {
+      "id": "00cbe6eb-c9c2-43d4-8158-6952066f0d2b",
+      "name": "Tribe",
+      "market": "William & Mary",
+      "alias": "WM"
+    },
+    {
+      "id": "206ecad6-3883-4171-901e-f0b6578f036f",
+      "name": "Trojans",
+      "market": "Virginia State",
+      "alias": "VSU"
+    },
+    {
+      "id": "71c1879b-9dfb-43a2-8476-c9cd283c0827",
+      "name": "Trojans",
+      "market": "Troy",
+      "alias": "TROY"
+    },
+    {
+      "id": "8f496f34-14e3-4ca7-958b-53f6da0b74d6",
+      "name": "Trojans",
+      "market": "USC",
+      "alias": "USC"
+    },
+    {
+      "id": "00470517-9853-44b2-8ecc-4d90ea5a76b3",
+      "name": "Trojans",
+      "market": "Trinity International",
+      "alias": "TIU"
+    },
+    {
+      "id": "72638a86-ccd4-46b6-aa0d-d14066b11966",
+      "name": "Trojans",
+      "market": "Taylor",
+      "alias": "TUT"
+    },
+    {
+      "id": "28e1dbb0-1295-42ca-bda1-fddb122aed2b",
+      "name": "Utes",
+      "market": "Utah",
+      "alias": "UTAH"
+    },
+    {
+      "id": "987bccc6-f5c6-45a2-b0a5-a25702e5c3d5",
+      "name": "Vandals",
+      "market": "Idaho",
+      "alias": "IDHO"
+    },
+    {
+      "id": "e9c96540-09a1-11f0-9dc6-ad27af2cf889",
+      "name": "Vaqueros",
+      "market": "UT Rio Grande Valley",
+      "alias": "UTRGV"
+    },
+    {
+      "id": "c31df8a8-d67c-40b2-bc27-7cbf7210cae2",
+      "name": "Vikings",
+      "market": "Elizabeth City State",
+      "alias": "ECSU"
+    },
+    {
+      "id": "e95bb7e5-4d32-4506-9aaf-7b7a3b47bb73",
+      "name": "Vikings",
+      "market": "Augustana",
+      "alias": "AUGU"
+    },
+    {
+      "id": "3b35771a-7df6-46d9-b018-3ad0d43afda8",
+      "name": "Vikings",
+      "market": "Berry College",
+      "alias": "BERRY"
+    },
+    {
+      "id": "1e3f5ade-a73e-44d5-a042-0a32f291d6f4",
+      "name": "Vikings",
+      "market": "Portland State",
+      "alias": "PRST"
+    },
+    {
+      "id": "ac95cbb7-f2b8-4573-8963-dcff3acfbfd9",
+      "name": "Vikings",
+      "market": "Grand View",
+      "alias": "GVU"
+    },
+    {
+      "id": "9ecb9f6b-df4a-4a92-aaa4-5d50a5286bdd",
+      "name": "Volunteers",
+      "market": "Tennessee",
+      "alias": "TENN"
+    },
+    {
+      "id": "dabbef22-d1d8-4974-9174-487ab0632026",
+      "name": "Vulcans",
+      "market": "PennWest California",
+      "alias": "CLFV"
+    },
+    {
+      "id": "4e1fc37e-1106-4a3a-aba6-70d311cf7c80",
+      "name": "War Hawks",
+      "market": "McMurry",
+      "alias": "MCM"
+    },
+    {
+      "id": "6370f943-c638-43f3-8c6b-740e6c4a8999",
+      "name": "Warhawks",
+      "market": "Louisiana-Monroe",
+      "alias": "ULM"
+    },
+    {
+      "id": "7d4be479-e23d-451e-9533-b01fa875a782",
+      "name": "Warriors",
+      "market": "Wayne State (MI)",
+      "alias": "WSMI"
+    },
+    {
+      "id": "f2ef8b8b-3e50-49a4-8aa1-1c4fa95b1e11",
+      "name": "Warriors",
+      "market": "Winona State",
+      "alias": "WSU"
+    },
+    {
+      "id": "6750e040-3194-4373-991f-dcd24a3e6734",
+      "name": "Warriors",
+      "market": "East Stroudsburg",
+      "alias": "ESU"
+    },
+    {
+      "id": "5490b68d-5834-47d8-bddc-d78005b917f1",
+      "name": "Warriors",
+      "market": "Merrimack",
+      "alias": "MRMK"
+    },
+    {
+      "id": "c6525318-4dc0-4080-8f8d-52ef0123d8a2",
+      "name": "Warriors",
+      "market": "Waldorf",
+      "alias": "WC"
+    },
+    {
+      "id": "c8a2e426-e152-4c79-8f7c-33372a42e1a7",
+      "name": "Warriors",
+      "market": "Webber International",
+      "alias": "WEB"
+    },
+    {
+      "id": "a30264db-f7dc-4ba4-b5f0-7d5ccdeae70d",
+      "name": "Warriors",
+      "market": "Bacone",
+      "alias": "BAC"
+    },
+    {
+      "id": "9784f0b3-d6ca-4c9b-9dca-377c40e76581",
+      "name": "Warriors",
+      "market": "College of Faith (AR)",
+      "alias": "CFAR"
+    },
+    {
+      "id": "57458416-bf4a-4191-b495-6ad4474bca4b",
+      "name": "Wasps",
+      "market": "Emory & Henry",
+      "alias": "EMHE\t"
+    },
+    {
+      "id": "44164db9-62ff-4e9a-a7d0-1ba7cb719ea9",
+      "name": "Wildcats",
+      "market": "Central Washington",
+      "alias": "CWU"
+    },
+    {
+      "id": "3f2d922f-40aa-437e-8610-72f48d63d3d8",
+      "name": "Wildcats",
+      "market": "Northern Michigan",
+      "alias": "NMU"
+    },
+    {
+      "id": "6ed1a628-7559-4e9f-98f5-1709d6a111fa",
+      "name": "Wildcats",
+      "market": "Wayne State (NE)",
+      "alias": "WYNST"
+    },
+    {
+      "id": "0a45c61e-24f5-4e76-a28c-0d2af432bf18",
+      "name": "Wildcats",
+      "market": "Fort Valley State",
+      "alias": "FVSU"
+    },
+    {
+      "id": "5941ffa3-cdd5-459b-ab61-fef120b929b2",
+      "name": "Wildcats",
+      "market": "Kentucky",
+      "alias": "UK"
+    },
+    {
+      "id": "8c345b64-d751-44aa-852f-8c30db72ffdc",
+      "name": "Wildcats",
+      "market": "Northwestern",
+      "alias": "NW"
+    },
+    {
+      "id": "0dd26ea7-79fb-4ea8-bf48-7c31108e14a3",
+      "name": "Wildcats",
+      "market": "Kansas State",
+      "alias": "KSU"
+    },
+    {
+      "id": "9e33183c-7e35-4738-9051-719dd7b32e9c",
+      "name": "Wildcats",
+      "market": "Arizona",
+      "alias": "ARIZ"
+    },
+    {
+      "id": "158b2ba8-ca8f-429e-b2e1-053ada5bf469",
+      "name": "Wildcats",
+      "market": "New Hampshire",
+      "alias": "UNH"
+    },
+    {
+      "id": "2f75b2cd-5c06-4c39-a191-251c9a47376b",
+      "name": "Wildcats",
+      "market": "Villanova",
+      "alias": "VILL"
+    },
+    {
+      "id": "5a1b9269-0c98-48cc-9d0a-1692b9f52d0b",
+      "name": "Wildcats",
+      "market": "Weber State",
+      "alias": "WEB"
+    },
+    {
+      "id": "a7077ca3-a4e4-427d-9c8a-c16b9dcb3472",
+      "name": "Wildcats",
+      "market": "Bethune-Cookman",
+      "alias": "COOK"
+    },
+    {
+      "id": "c556a8d0-3c67-4a02-a3ba-2e74398ba3f2",
+      "name": "Wildcats",
+      "market": "Abilene Christian",
+      "alias": "AC"
+    },
+    {
+      "id": "cb71f759-0c22-4be7-babe-3cb849fd1b5e",
+      "name": "Wildcats",
+      "market": "Davidson",
+      "alias": "DAV"
+    },
+    {
+      "id": "dbfc255d-ee7c-4b1a-9b42-dd822f7ec901",
+      "name": "Wildcats",
+      "market": "Louisiana Christian",
+      "alias": "LC"
+    },
+    {
+      "id": "d24329bd-f636-475d-bccd-50fc18071945",
+      "name": "Wildcats",
+      "market": "Bethel (TN)",
+      "alias": "BETHT"
+    },
+    {
+      "id": "ddb9ab12-01d2-4d1c-b40d-39790c1837c7",
+      "name": "Wildcats",
+      "market": "Indiana Wesleyan",
+      "alias": "IWE"
+    },
+    {
+      "id": "0c8fc8f1-0659-49dd-8668-436c3812089e",
+      "name": "Wolf Pack",
+      "market": "Nevada",
+      "alias": "NEV"
+    },
+    {
+      "id": "034ac81a-311c-49f4-8c45-ddcef7777bdc",
+      "name": "Wolfpack",
+      "market": "North Carolina State",
+      "alias": "NCST"
+    },
+    {
+      "id": "d3e8c416-e643-4d5e-be9e-c598a150b234",
+      "name": "Wolverines",
+      "market": "Michigan",
+      "alias": "MICH"
+    },
+    {
+      "id": "e6d61910-fd59-4be8-b404-6d6223c1308c",
+      "name": "Wolverines",
+      "market": "Wesley College",
+      "alias": "WC"
+    },
+    {
+      "id": "5bd3392e-c876-45c3-aa04-3c668d1bec85",
+      "name": "Wolves",
+      "market": "Newberry",
+      "alias": "NC"
+    },
+    {
+      "id": "dd35a796-5290-4866-a4d2-4abc6849ba6d",
+      "name": "Wolves",
+      "market": "Western Oregon",
+      "alias": "WOU"
+    },
+    {
+      "id": "5c6f90b9-651c-4f9d-b118-9bee6b77ca80",
+      "name": "Wolves",
+      "market": "Northern State",
+      "alias": "NSU"
+    },
+    {
+      "id": "3dbd5f40-3769-11f0-b33b-01ab33fae7a6",
+      "name": "Wolves",
+      "market": "Western Connecticut State",
+      "alias": "WCSU"
+    },
+    {
+      "id": "25c0eb2d-d8a8-45e5-85ec-fcb99f6c655c",
+      "name": "Wolves",
+      "market": "West Georgia",
+      "alias": "UWGA"
+    },
+    {
+      "id": "bf1b2f36-51cc-4d0e-b033-4c99e29dd6f1",
+      "name": "Wonder Boys",
+      "market": "Arkansas Tech",
+      "alias": "ARKT"
+    },
+    {
+      "id": "4dfa3520-e83f-4810-b9b8-d4eebf6afd6c",
+      "name": "Yellow Jackets",
+      "market": "Black Hills State",
+      "alias": "BHSU"
+    },
+    {
+      "id": "14dd087b-eee6-4e89-a923-d9c0968c2309",
+      "name": "Yellow Jackets",
+      "market": "West Virginia State",
+      "alias": "WVSU"
+    },
+    {
+      "id": "dbeac1b1-17ab-475e-a485-c66573a55954",
+      "name": "Yellow Jackets",
+      "market": "American International",
+      "alias": "AIC"
+    },
+    {
+      "id": "afd132f0-14be-11f0-9f36-d9ba58a137df",
+      "name": "Yellow Jackets",
+      "market": "Allen",
+      "alias": "ALLN"
+    },
+    {
+      "id": "5ff038e1-6e3b-4cbe-90b8-751f783cd7a9",
+      "name": "Yellow Jackets",
+      "market": "Georgia Tech",
+      "alias": "GT"
+    },
+    {
+      "id": "a15ba9c7-77a2-4ced-83be-f70d1cb92df6",
+      "name": "Yotes",
+      "market": "College of Idaho",
+      "alias": "COI"
+    },
+    {
+      "id": "a90583d2-3576-4abc-906e-974e84a4b2f0",
+      "name": "Zips",
+      "market": "Akron",
+      "alias": "AKR"
+    }
+  ]
+}
