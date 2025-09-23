@@ -80,7 +80,8 @@ function gameIdentity(g) {
 
 function fetchGamesByDate(dateStr) {
   // NCAA CFB endpoint
-  const url = `https://api.sportsdata.io/v3/cfb/scores/json/GamesByDate/${encodeURIComponent(dateStr)}`;
+  // const url = `https://api.sportsdata.io/v3/cfb/scores/json/GamesByDate/${encodeURIComponent(dateStr)}`;
+  const url = `https://replay.sportsdata.io/api/v3/cfb/scores/json/gamesbydate/2023-12-02?key=${API_KEY}`;
   const opts = {
     headers: { 'Ocp-Apim-Subscription-Key': API_KEY },
     timeout: 15000,
