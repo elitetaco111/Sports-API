@@ -12,7 +12,7 @@ if (!API_KEY) {
   process.exit(1);
 }
 
-const ENDPOINT1 = 'https://api.sportsdata.io/v3/mlb/scores/json/AllTeams?key=' + API_KEY;
+const ENDPOINT1 = 'https://api.sportsdata.io/v3/cfb/scores/json/Teams?key=' + API_KEY;
 
 
 async function fetchAllTeamProfiles() {
@@ -33,7 +33,7 @@ async function fetchAllTeamProfiles() {
     console.log(`Fetched ${data.length} team profiles.`);
     // Example: list team + League + Division
     for (const t of data) {
-      console.log(`${t.TeamID}: ${t.City} ${t.Name} | ${t.League} ${t.Division} ${t.GlobalTeamID}`);
+      console.log(`${t.TeamID}: ${t.School} ${t.Name} | ${t.GlobalTeamID} | ${t.Conference} | Rank: ${t.ApRank}`);
     }
 
     // If you want to inspect full object of first team:
@@ -79,4 +79,4 @@ async function fetchGamesByDate(date) {
 }
 
 fetchAllTeamProfiles();
-fetchGamesByDate('2025-09-11');
+fetchGamesByDate('2025-09-23');
