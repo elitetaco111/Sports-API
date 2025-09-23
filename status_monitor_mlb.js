@@ -231,3 +231,20 @@ main().catch(err => {
   console.error('Fatal:', err);
   process.exit(1);
 });
+
+// Add timestamps to all console output
+(() => {
+  const ts = () => new Date().toISOString();
+  const orig = {
+    log: console.log.bind(console),
+    error: console.error.bind(console),
+    warn: console.warn.bind(console),
+    info: console.info.bind(console),
+    debug: console.debug ? console.debug.bind(console) : null
+  };
+  console.log = (...args) => orig.log(`[${ts()}]`, ...args);
+  console.error = (...args) => orig.error(`[${ts()}]`, ...args);
+  console.warn = (...args) => orig.warn(`[${ts()}]`, ...args);
+  console.info = (...args) => orig.info(`[${ts()}]`, ...args);
+  if (orig.debug) console.debug = (...args) => orig.debug(`[${ts()}]`, ...args);
+})();
